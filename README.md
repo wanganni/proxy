@@ -1,3 +1,8 @@
+本订阅不定时更新
+
+更新于：2025年07月28日
+
+
 免费V2rayN 免费Shadowrocket/V2ray/SSR/Clash订阅节点
 
 所有免费clash节点都爬取自网络，请勿用于非法用途 。
