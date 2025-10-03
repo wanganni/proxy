@@ -3,29 +3,20 @@ proxies:
     grpc-opts:
       grpc-service-name: >-
         ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-    name: "\U0001F1EB\U0001F1F7FR_1 |5.0MB/s"
+    name: "\U0001F1EB\U0001F1F7FR_1|5.0MB/s"
     network: grpc
     port: 35728
     server: 141.227.166.78
     skip-cert-verify: false
     type: vless
     uuid: 7bd98eb6-5408-492c-a9f2-54776a68aeb6
-  - auth: 40e600c5-530b-4f2a-8a19-94564e5c6b83
-    name: "\U0001F1F7\U0001F1FARU_1 |3.0MB/s"
-    password: 40e600c5-530b-4f2a-8a19-94564e5c6b83
-    port: 57338
-    server: hg.jjzcloud.top
-    skip-cert-verify: true
-    sni: hg.jjzcloud.top
-    type: hysteria2
-    udp: true
   - alpn:
       - h3
     auth-str: dongtaiwang.com
     auth_str: dongtaiwang.com
     delay: 1560
     down: '100'
-    name: "\U0001F1EB\U0001F1F7FR_2 |3.4MB/s"
+    name: "\U0001F1EB\U0001F1F7FR_2|2.5MB/s"
     obfs: ''
     port: 15010
     protocol: ''
@@ -35,7 +26,7 @@ proxies:
     type: hysteria
     up: '100'
   - client-fingerprint: chrome
-    name: "\U0001F1F5\U0001F1F1PL_1 |1.1MB/s"
+    name: "\U0001F1F5\U0001F1F1PL_1|2.2MB/s"
     port: 8080
     reality-opts:
       public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
@@ -48,634 +39,7 @@ proxies:
     uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
     network: tcp
     servername: yandex.com
-  - delay: 1286
-    grpc-opts:
-      grpc-service-name: >-
-        ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-    name: "\U0001F1EB\U0001F1F7FR_3 |2.3MB/s"
-    network: grpc
-    port: 18409
-    server: 141.227.174.221
-    skip-cert-verify: false
-    type: vless
-    uuid: 5342a980-50a4-4daa-9c45-e83f2ebab024
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_1 |1.7MB/s"
-    password: 253bc477d4e43c209f2d427272968280
-    port: 3296
-    server: 36.156.102.88
-    skip-cert-verify: false
-    sni: www.nintendogames.net
-    type: trojan
-    udp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1F0\U0001F1FFKZ_1 |2.5MB/s"
-    port: 8080
-    reality-opts:
-      public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
-      short-id: 27cfa05000c23cc4
-    server: 38.107.234.93
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-    network: tcp
-    servername: yandex.com
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    delay: 2978
-    down: 55 Mbps
-    name: "\U0001F1EB\U0001F1F7FR_4 |2.0MB/s"
-    port: 50011
-    protocol: udp
-    server: 62.210.127.217
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: 11 Mbps
-  - flow: ''
-    name: "\U0001F1ED\U0001F1F0HK_1 |5.0MB/s"
-    password: ef43453f-1eae-4501-8c9e-5c17e9f50758
-    port: 30001
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: 'null'
-    type: trojan
-    udp: true
-  - flow: ''
-    name: "\U0001F1ED\U0001F1F0HK_2 |3.5MB/s"
-    password: f0f66b33-35d5-4d0e-bed3-f75b3d41267d
-    port: 30001
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: 'null'
-    type: trojan
-    udp: true
-  - flow: ''
-    name: "\U0001F1ED\U0001F1F0HK_3 |3.1MB/s"
-    password: 53ff4df4-1951-4e5e-8c4d-340b5c693ae8
-    port: 30001
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: 'null'
-    type: trojan
-    udp: true
-  - flow: ''
-    name: "\U0001F1ED\U0001F1F0HK_4 |2.0MB/s"
-    password: 0ea82d15-8bb2-4223-9602-fd09698cea48
-    port: 30001
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: 'null'
-    type: trojan
-    udp: true
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1EE\U0001F1EAIE_1 |1.4MB/s"
-    network: tcp
-    port: 36678
-    reality-opts:
-      public-key: rrGm0NemTtGQ8Vrd2AzB7pSoW_kYtqYvhRxsx_MtwG0
-      short-id: 5d20
-    server: 192.210.183.136
-    tls: true
-    type: vless
-    udp: true
-    uuid: bf9b316d-31ac-42ee-b8a5-8dc795118917
-    xudp: true
-    servername: swdist.apple.com
-  - flow: ''
-    name: "\U0001F1ED\U0001F1F0HK_5 |1.8MB/s"
-    password: ef43453f-1eae-4501-8c9e-5c17e9f50758
-    port: 30002
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: 'null'
-    type: trojan
-    udp: true
-  - flow: ''
-    name: "\U0001F1ED\U0001F1F0HK_6 |1.1MB/s"
-    password: 0ea82d15-8bb2-4223-9602-fd09698cea48
-    port: 30002
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: 'null'
-    type: trojan
-    udp: true
-  - flow: ''
-    name: "\U0001F1ED\U0001F1F0HK_7 |1.3MB/s"
-    password: f34966cd-2c76-48cd-94d5-90293682e14c
-    port: 30001
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: 'null'
-    type: trojan
-    udp: true
-  - alpn: []
-    flow: ''
-    name: "\U0001F1ED\U0001F1F0HK_8 |1.5MB/s"
-    password: 53ff4df4-1951-4e5e-8c4d-340b5c693ae8
-    port: 30002
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: lazy.rsqpq.cn
-    type: trojan
-    udp: true
-  - alpn: []
-    flow: ''
-    name: "\U0001F1FA\U0001F1F8US_2 |2.9MB/s"
-    password: 0ea82d15-8bb2-4223-9602-fd09698cea48
-    port: 30003
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: lazy.rsqpq.cn
-    type: trojan
-    udp: true
-  - alpn: []
-    flow: ''
-    name: "\U0001F1FA\U0001F1F8US_3 |4.0MB/s"
-    password: 6f2d40d8-f47a-4ae0-9ca8-c1d46cc6bc8b
-    port: 30003
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: lazy.rsqpq.cn
-    type: trojan
-    udp: true
-  - alpn: []
-    flow: ''
-    name: "\U0001F1FA\U0001F1F8US_4 |1.2MB/s"
-    password: f0f66b33-35d5-4d0e-bed3-f75b3d41267d
-    port: 30003
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: lazy.rsqpq.cn
-    type: trojan
-    udp: true
-  - alpn: []
-    flow: ''
-    name: "\U0001F1ED\U0001F1F0HK_9 |1.2MB/s"
-    password: 53ff4df4-1951-4e5e-8c4d-340b5c693ae8
-    port: 30004
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: lazy.rsqpq.cn
-    type: trojan
-    udp: true
-  - alpn: []
-    flow: ''
-    name: "\U0001F1ED\U0001F1F0HK_10 |1.5MB/s"
-    password: ef43453f-1eae-4501-8c9e-5c17e9f50758
-    port: 30004
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: lazy.rsqpq.cn
-    type: trojan
-    udp: true
-  - alpn: []
-    flow: ''
-    name: "\U0001F1FA\U0001F1F8US_5 |1.1MB/s"
-    password: 57e41491-08ec-4798-ab19-8398d921e0f7
-    port: 30003
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: lazy.rsqpq.cn
-    type: trojan
-    udp: true
-  - alpn: []
-    flow: ''
-    name: "\U0001F1ED\U0001F1F0HK_11 |1.1MB/s"
-    password: f0f66b33-35d5-4d0e-bed3-f75b3d41267d
-    port: 30004
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: lazy.rsqpq.cn
-    type: trojan
-    udp: true
-  - alpn: []
-    flow: ''
-    name: "\U0001F1ED\U0001F1F0HK_12 |3.1MB/s"
-    password: 6f2d40d8-f47a-4ae0-9ca8-c1d46cc6bc8b
-    port: 30004
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: lazy.rsqpq.cn
-    type: trojan
-    udp: true
-  - alpn: []
-    flow: ''
-    name: "\U0001F1ED\U0001F1F0HK_13 |1.1MB/s"
-    password: 57e41491-08ec-4798-ab19-8398d921e0f7
-    port: 30004
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: lazy.rsqpq.cn
-    type: trojan
-    udp: true
-  - alpn: []
-    flow: ''
-    name: "\U0001F1ED\U0001F1F0HK_14 |1.4MB/s"
-    password: ef43453f-1eae-4501-8c9e-5c17e9f50758
-    port: 30005
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: lazy.rsqpq.cn
-    type: trojan
-    udp: true
-  - alpn: []
-    flow: ''
-    name: "\U0001F1ED\U0001F1F0HK_15 |1.1MB/s"
-    password: f0f66b33-35d5-4d0e-bed3-f75b3d41267d
-    port: 30005
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: lazy.rsqpq.cn
-    type: trojan
-    udp: true
-  - alpn: []
-    flow: ''
-    name: "\U0001F1F8\U0001F1ECSG_1 |3.9MB/s"
-    password: ef43453f-1eae-4501-8c9e-5c17e9f50758
-    port: 33001
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: lazy.rsqpq.cn
-    type: trojan
-    udp: true
-  - alpn: []
-    flow: ''
-    name: "\U0001F1ED\U0001F1F0HK_16 |1.1MB/s"
-    password: 53ff4df4-1951-4e5e-8c4d-340b5c693ae8
-    port: 30005
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: lazy.rsqpq.cn
-    type: trojan
-    udp: true
-  - alpn: []
-    flow: ''
-    name: "\U0001F1ED\U0001F1F0HK_17 |2.1MB/s"
-    password: 57e41491-08ec-4798-ab19-8398d921e0f7
-    port: 30005
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: lazy.rsqpq.cn
-    type: trojan
-    udp: true
-  - alpn: []
-    flow: ''
-    name: "\U0001F1F8\U0001F1ECSG_2 |1.7MB/s"
-    password: f0f66b33-35d5-4d0e-bed3-f75b3d41267d
-    port: 33001
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: lazy.rsqpq.cn
-    type: trojan
-    udp: true
-  - alpn: []
-    flow: ''
-    name: "\U0001F1F8\U0001F1ECSG_3 |2.8MB/s"
-    password: 6f2d40d8-f47a-4ae0-9ca8-c1d46cc6bc8b
-    port: 33001
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: lazy.rsqpq.cn
-    type: trojan
-    udp: true
-  - alpn: []
-    flow: ''
-    name: "\U0001F1F8\U0001F1ECSG_4 |1.2MB/s"
-    password: 53ff4df4-1951-4e5e-8c4d-340b5c693ae8
-    port: 33001
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: lazy.rsqpq.cn
-    type: trojan
-    udp: true
-  - alpn: []
-    flow: ''
-    name: "\U0001F1F8\U0001F1ECSG_5 |2.7MB/s"
-    password: 57e41491-08ec-4798-ab19-8398d921e0f7
-    port: 33001
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: lazy.rsqpq.cn
-    type: trojan
-    udp: true
-  - alpn: []
-    flow: ''
-    name: "\U0001F1FA\U0001F1F8US_6 |1.2MB/s"
-    password: f34966cd-2c76-48cd-94d5-90293682e14c
-    port: 32001
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: lazy.rsqpq.cn
-    type: trojan
-    udp: true
-  - alpn: []
-    flow: ''
-    name: "\U0001F1FA\U0001F1F8US_7 |1.7MB/s"
-    password: 6f2d40d8-f47a-4ae0-9ca8-c1d46cc6bc8b
-    port: 32001
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: lazy.rsqpq.cn
-    type: trojan
-    udp: true
-  - alpn: []
-    flow: ''
-    name: "\U0001F1FA\U0001F1F8US_8 |2.0MB/s"
-    password: 53ff4df4-1951-4e5e-8c4d-340b5c693ae8
-    port: 32001
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: lazy.rsqpq.cn
-    type: trojan
-    udp: true
-  - alpn: []
-    flow: ''
-    name: "\U0001F1EF\U0001F1F5JP_1 |4.4MB/s"
-    password: f34966cd-2c76-48cd-94d5-90293682e14c
-    port: 32002
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: lazy.rsqpq.cn
-    type: trojan
-    udp: true
-  - alpn: []
-    flow: ''
-    name: "\U0001F1FA\U0001F1F8US_9 |1.3MB/s"
-    password: 6f2d40d8-f47a-4ae0-9ca8-c1d46cc6bc8b
-    port: 33005
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: lazy.rsqpq.cn
-    type: trojan
-    udp: true
-  - alpn: []
-    flow: ''
-    name: "\U0001F1FA\U0001F1F8US_10 |1.3MB/s"
-    password: 57e41491-08ec-4798-ab19-8398d921e0f7
-    port: 33005
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: lazy.rsqpq.cn
-    type: trojan
-    udp: true
-  - alpn: []
-    flow: ''
-    name: "\U0001F1EF\U0001F1F5JP_2 |1.0MB/s"
-    password: 0ea82d15-8bb2-4223-9602-fd09698cea48
-    port: 32002
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: lazy.rsqpq.cn
-    type: trojan
-    udp: true
-  - alpn: []
-    flow: ''
-    name: "\U0001F1EF\U0001F1F5JP_3 |1.8MB/s"
-    password: 6f2d40d8-f47a-4ae0-9ca8-c1d46cc6bc8b
-    port: 32002
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: lazy.rsqpq.cn
-    type: trojan
-    udp: true
-  - alpn: []
-    flow: ''
-    name: "\U0001F1EF\U0001F1F5JP_4 |2.2MB/s"
-    password: 53ff4df4-1951-4e5e-8c4d-340b5c693ae8
-    port: 32002
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: lazy.rsqpq.cn
-    type: trojan
-    udp: true
-  - alpn: []
-    flow: ''
-    name: "\U0001F1F9\U0001F1FCTW_1 |1.1MB/s"
-    password: 53ff4df4-1951-4e5e-8c4d-340b5c693ae8
-    port: 38001
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: lazy.rsqpq.cn
-    type: trojan
-    udp: true
-  - alpn: []
-    flow: ''
-    name: "\U0001F1F9\U0001F1FCTW_2 |1.1MB/s"
-    password: f0f66b33-35d5-4d0e-bed3-f75b3d41267d
-    port: 38001
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: lazy.rsqpq.cn
-    type: trojan
-    udp: true
-  - alpn: []
-    flow: ''
-    name: "\U0001F1F9\U0001F1FCTW_3 |1.2MB/s"
-    password: 6f2d40d8-f47a-4ae0-9ca8-c1d46cc6bc8b
-    port: 38001
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: lazy.rsqpq.cn
-    type: trojan
-    udp: true
-  - alpn: []
-    flow: ''
-    name: "\U0001F1F9\U0001F1FCTW_4 |1.9MB/s"
-    password: 0ea82d15-8bb2-4223-9602-fd09698cea48
-    port: 38001
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: lazy.rsqpq.cn
-    type: trojan
-    udp: true
-  - alpn: []
-    flow: ''
-    name: "\U0001F1F9\U0001F1FCTW_5 |1.6MB/s"
-    password: 57e41491-08ec-4798-ab19-8398d921e0f7
-    port: 38001
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: lazy.rsqpq.cn
-    type: trojan
-    udp: true
-  - alpn: []
-    flow: ''
-    name: "\U0001F1F9\U0001F1FCTW_6 |1.2MB/s"
-    password: f34966cd-2c76-48cd-94d5-90293682e14c
-    port: 38001
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: lazy.rsqpq.cn
-    type: trojan
-    udp: true
-  - alpn: []
-    flow: ''
-    name: "\U0001F1F9\U0001F1FCTW_7 |1.1MB/s"
-    password: 0ea82d15-8bb2-4223-9602-fd09698cea48
-    port: 38101
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: lazy.rsqpq.cn
-    type: trojan
-    udp: true
-  - alpn: []
-    flow: ''
-    name: "\U0001F1F9\U0001F1FCTW_8 |1.5MB/s"
-    password: 53ff4df4-1951-4e5e-8c4d-340b5c693ae8
-    port: 38101
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: lazy.rsqpq.cn
-    type: trojan
-    udp: true
-  - alpn: []
-    flow: ''
-    name: "\U0001F1F9\U0001F1FCTW_9 |2.6MB/s"
-    password: ef43453f-1eae-4501-8c9e-5c17e9f50758
-    port: 38101
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: lazy.rsqpq.cn
-    type: trojan
-    udp: true
-  - alpn: []
-    flow: ''
-    name: "\U0001F1F9\U0001F1FCTW_10 |1.2MB/s"
-    password: 57e41491-08ec-4798-ab19-8398d921e0f7
-    port: 38101
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: lazy.rsqpq.cn
-    type: trojan
-    udp: true
-  - alpn: []
-    flow: ''
-    name: "\U0001F1FA\U0001F1F8US_11 |1.8MB/s"
-    password: 6f2d40d8-f47a-4ae0-9ca8-c1d46cc6bc8b
-    port: 31001
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: lazy.rsqpq.cn
-    type: trojan
-    udp: true
-  - alpn: []
-    flow: ''
-    name: "\U0001F1FA\U0001F1F8US_12 |1.1MB/s"
-    password: f34966cd-2c76-48cd-94d5-90293682e14c
-    port: 31003
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: lazy.rsqpq.cn
-    type: trojan
-    udp: true
-  - alpn: []
-    flow: ''
-    name: "\U0001F1FA\U0001F1F8US_13 |1.0MB/s"
-    password: 53ff4df4-1951-4e5e-8c4d-340b5c693ae8
-    port: 31003
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: lazy.rsqpq.cn
-    type: trojan
-    udp: true
-  - alpn: []
-    flow: ''
-    name: "\U0001F1FA\U0001F1F8US_14 |2.3MB/s"
-    password: f0f66b33-35d5-4d0e-bed3-f75b3d41267d
-    port: 31003
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: lazy.rsqpq.cn
-    type: trojan
-    udp: true
-  - alpn: []
-    flow: ''
-    name: "\U0001F1FA\U0001F1F8US_15 |1.2MB/s"
-    password: 0ea82d15-8bb2-4223-9602-fd09698cea48
-    port: 31003
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: lazy.rsqpq.cn
-    type: trojan
-    udp: true
-  - alpn: []
-    flow: ''
-    name: "\U0001F1FA\U0001F1F8US_16 |3.4MB/s"
-    password: 0ea82d15-8bb2-4223-9602-fd09698cea48
-    port: 31009
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: lazy.rsqpq.cn
-    type: trojan
-    udp: true
-  - alpn: []
-    flow: ''
-    name: "\U0001F1FA\U0001F1F8US_17 |1.2MB/s"
-    password: f0f66b33-35d5-4d0e-bed3-f75b3d41267d
-    port: 31009
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: lazy.rsqpq.cn
-    type: trojan
-    udp: true
-  - alpn: []
-    flow: ''
-    name: "\U0001F1FA\U0001F1F8US_18 |1.1MB/s"
-    password: f34966cd-2c76-48cd-94d5-90293682e14c
-    port: 31009
-    server: lazy.rsqpq.cn
-    skip-cert-verify: true
-    sni: lazy.rsqpq.cn
-    type: trojan
-    udp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK_18 |1.7MB/s"
-    network: ws
-    port: 443
-    server: hk3.kaipi.link
-    skip-cert-verify: true
-    tfo: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d8665d45-8103-46e9-9cb7-8902bb7559b4
-    ws-opts:
-      headers:
-        Host: hk3.kaipi.link
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/120.0.0.0 Safari/537.36
-      path: /texaws
-    servername: hk3.kaipi.link
-  - client-fingerprint: random
-    name: "\U0001F1FA\U0001F1F8US_19 |4.2MB/s"
-    network: ws
-    port: 2083
-    server: 162.159.142.252
-    skip-cert-verify: false
-    tfo: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1FA\U0001F1F8US_20 |4.1MB/s"
+  - name: "\U0001F1FA\U0001F1F8US_1|2.8MB/s"
     network: ws
     port: 443
     server: 162.159.43.92
@@ -692,22 +56,172 @@ proxies:
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
     servername: juzi.634676.xyz
-  - name: "\U0001F1EF\U0001F1F5JP_5 |4.0MB/s"
+  - client-fingerprint: random
+    name: "\U0001F1FA\U0001F1F8US_2|2.8MB/s"
     network: ws
-    port: 54584
-    server: 168.138.192.16
-    skip-cert-verify: true
+    port: 2083
+    server: 162.159.142.252
+    skip-cert-verify: false
+    tfo: false
     tls: true
     type: vless
     udp: true
-    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+    uuid: d2965257-0536-4811-a0d5-cdce54e90326
     ws-opts:
       headers:
-        Host: kejiland.freewarp.eu.org
-      path: '/snippets/ip=proxyip.fxxk.dedyn.io:443'
+        Host: fei.634676.xyz
+      path: /
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
-    servername: kejiland.freewarp.eu.org
+    servername: fei.634676.xyz
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    auth_str: dongtaiwang.com
+    delay: 2978
+    down: 55 Mbps
+    name: "\U0001F1EB\U0001F1F7FR_3|1.5MB/s"
+    port: 50011
+    protocol: udp
+    server: 62.210.127.217
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: 11 Mbps
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1EB\U0001F1F7FR_4|2.2MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: 21MNt-O8tq9gP9o7yeT9iVQslHPdNVHtqI9Kg5p-lHo
+      short-id: ''
+    server: 38.54.122.118
+    tls: true
+    type: vless
+    udp: true
+    uuid: 9f4b9824-df02-49c3-a976-d4f9a31f81fe
+    xudp: true
+    servername: dash.cloudflare.com
+  - grpc-opts:
+      grpc-service-name: >-
+        ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+    name: "\U0001F1EB\U0001F1F7FR_5|3.4MB/s"
+    network: grpc
+    port: 22287
+    server: 141.227.180.39
+    type: vless
+    udp: true
+    uuid: 312b10a5-a604-4199-bf43-6a773e8b24e4
+    xudp: true
+  - name: "\U0001F1F5\U0001F1F1PL_2|3.5MB/s"
+    network: ws
+    port: 8880
+    server: jone1.fast-turbooserver.com
+    type: vless
+    udp: true
+    uuid: turboo-server
+    ws-opts:
+      headers:
+        Host: jone1.fast-turbooserver.com
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/70.0.3538.67 Safari/537.36
+      path: /Turboo-Server
+    xudp: true
+  - name: "\U0001F1F0\U0001F1F7KR_1|1.8MB/s"
+    password: test.+
+    port: 30446
+    server: testkr3.ssv.vc
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+    username: test
+    sni: testkr3.ssv.vc
+  - delay: 1339
+    name: "\U0001F1F3\U0001F1F1NL_1|3.5MB/s"
+    network: ws
+    port: 8443
+    server: 80.90.187.190
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    uuid: 019995cb-7e5f-847a-7812-d2cd82dc7566
+    ws-opts:
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: abcd.freewarp.eu.org
+      max-early-data: 2560
+      path: '/snippets/ip=proxyip.fxxk.dedyn.io:443'
+    servername: abcd.freewarp.eu.org
+  - auth: bc4b33b3-b706-40e9-a612-3c5a967ca1c9
+    name: "\U0001F1FA\U0001F1F8US_3|1.6MB/s"
+    password: bc4b33b3-b706-40e9-a612-3c5a967ca1c9
+    port: 57338
+    server: yd.jjzcloud.top
+    skip-cert-verify: true
+    sni: yd.jjzcloud.top
+    type: hysteria2
+    udp: true
+  - auth: bbd27921-0581-47a7-b8be-4d873767bb3c
+    name: "\U0001F1FA\U0001F1F8US_4|1.4MB/s"
+    password: bbd27921-0581-47a7-b8be-4d873767bb3c
+    port: 57338
+    server: mg2.jjzcloud.top
+    skip-cert-verify: true
+    sni: mg2.jjzcloud.top
+    type: hysteria2
+    udp: true
+  - auth: 8a1f066f-a4f2-4187-957d-53c56155d2f0
+    name: "\U0001F1EC\U0001F1E7GB_1|1.1MB/s"
+    password: 8a1f066f-a4f2-4187-957d-53c56155d2f0
+    port: 57338
+    server: mg2.jjzcloud.top
+    skip-cert-verify: true
+    sni: mg2.jjzcloud.top
+    type: hysteria2
+    udp: true
+  - auth: c19c63ee-b44a-4bc4-9661-8b0d335e4b84
+    name: "\U0001F1FA\U0001F1F8US_5|1.8MB/s"
+    password: c19c63ee-b44a-4bc4-9661-8b0d335e4b84
+    port: 57338
+    server: yd.jjzcloud.top
+    skip-cert-verify: true
+    sni: yd.jjzcloud.top
+    type: hysteria2
+    udp: true
+  - auth: f3fac66e-e149-4f04-a340-c449e5e02bfa
+    name: "\U0001F1FA\U0001F1F8US_6|2.6MB/s"
+    password: f3fac66e-e149-4f04-a340-c449e5e02bfa
+    port: 57338
+    server: mg2.jjzcloud.top
+    skip-cert-verify: true
+    sni: mg2.jjzcloud.top
+    type: hysteria2
+    udp: true
+  - auth: f33a8efd-d80b-40f2-9c5c-994c4a1386ee
+    name: "\U0001F1FA\U0001F1F8US_7|1.4MB/s"
+    password: f33a8efd-d80b-40f2-9c5c-994c4a1386ee
+    port: 57338
+    server: yd.jjzcloud.top
+    skip-cert-verify: true
+    sni: yd.jjzcloud.top
+    type: hysteria2
+    udp: true
+  - auth: c19c63ee-b44a-4bc4-9661-8b0d335e4b84
+    name: "\U0001F1FA\U0001F1F8US_8|2.8MB/s"
+    password: c19c63ee-b44a-4bc4-9661-8b0d335e4b84
+    port: 57338
+    server: mg2.jjzcloud.top
+    skip-cert-verify: true
+    sni: mg2.jjzcloud.top
+    type: hysteria2
+    udp: true
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
