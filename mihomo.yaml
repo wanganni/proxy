@@ -1,41 +1,33 @@
 proxies:
+  - grpc-opts:
+      grpc-service-name: >-
+        ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+    name: "\U0001F1EB\U0001F1F7FR_1|2.8MB/s"
+    network: grpc
+    port: 8080
+    server: 141.227.162.108
+    type: vless
+    udp: true
+    uuid: 3a2cf9db-902b-4271-8cf2-69334b31660b
+    xudp: true
   - alpn:
       - h3
     auth-str: dongtaiwang.com
     auth_str: dongtaiwang.com
-    delay: 1915
-    down: '100'
-    name: "\U0001F1FA\U0001F1F8US_1|4.7MB/s"
-    obfs: ''
-    port: 15823
-    protocol: ''
-    server: 208.87.243.187
+    delay: 2168
+    down: 55 Mbps
+    name: "\U0001F1FA\U0001F1F8US_1|3.0MB/s"
+    port: 38845
+    server: 208.87.243.151
     skip-cert-verify: true
-    sni: apple.com
+    sni: www.bing.com
     type: hysteria
-    up: '100'
+    up: 11 Mbps
   - alpn:
       - h3
-    auth-str: dongtaiwang.com
     auth_str: dongtaiwang.com
-    delay: 1560
-    down: '100'
-    name: "\U0001F1EB\U0001F1F7FR_1|3.4MB/s"
-    obfs: ''
-    port: 15010
-    protocol: ''
-    server: 195.154.200.40
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: '100'
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    delay: 2116
     down: '55'
-    name: "\U0001F1F3\U0001F1F1NL_1|2.7MB/s"
+    name: "\U0001F1F3\U0001F1F1NL_1|2.2MB/s"
     obfs: ''
     port: 49003
     protocol: ''
@@ -44,212 +36,25 @@ proxies:
     sni: apple.com
     type: hysteria
     up: '11'
+    auth-str: dongtaiwang.com
   - alpn:
       - h3
     auth-str: dongtaiwang.com
     auth_str: dongtaiwang.com
-    delay: 2168
-    down: 55 Mbps
-    name: "\U0001F1FA\U0001F1F8US_2|2.7MB/s"
-    port: 38845
-    server: 208.87.243.151
-    skip-cert-verify: true
-    sni: www.bing.com
-    type: hysteria
-    up: 11 Mbps
-  - delay: 886
-    grpc-opts:
-      grpc-service-name: >-
-        ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-    name: "\U0001F1EB\U0001F1F7FR_2|2.1MB/s"
-    network: grpc
-    port: 21232
-    server: 141.227.170.178
-    type: vless
-    udp: true
-    uuid: 5e0eddef-95cd-4109-9807-0f32062939f3
-    xudp: true
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    down: 55
-    name: "\U0001F1EB\U0001F1F7FR_3|1.1MB/s"
-    port: 35511
-    protocol: udp
-    server: 62.210.127.217
+    delay: 1915
+    down: '100'
+    name: "\U0001F1FA\U0001F1F8US_2|2.9MB/s"
+    obfs: ''
+    port: 15823
+    protocol: ''
+    server: 208.87.243.187
     skip-cert-verify: true
     sni: apple.com
     type: hysteria
-    udp: true
-    up: 11
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    delay: 2978
-    down: 55 Mbps
-    name: "\U0001F1EB\U0001F1F7FR_4|1.1MB/s"
-    port: 50011
-    protocol: udp
-    server: 62.210.127.217
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: 11 Mbps
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    delay: 1318
-    down: 1000
-    fast-open: true
-    name: "\U0001F1F3\U0001F1F1NL_2|1.3MB/s"
-    port: 37519
-    ports: 10000-20000
-    protocol: udp
-    server: 109.104.153.91
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: 1000
-  - name: "\U0001F1FA\U0001F1F8US_3|4.4MB/s"
-    password: miaoge110
-    port: 40112
-    server: 45.58.38.153
-    skip-cert-verify: true
-    sni: www.bing.com
-    type: hysteria2
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1EF\U0001F1F5JP_1|4.4MB/s"
-    password: dc9ea653-becc-44f1-95f9-16773a0519e9
-    port: 12051
-    server: rb02.lr9soflhleb.top
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK_1|1.6MB/s"
-    network: ws
-    port: 2096
-    server: 104.26.12.31
-    skip-cert-verify: true
-    tfo: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6877b96c-a092-4f90-8e46-cbb4cad2bb9f
-    ws-opts:
-      headers:
-        Host: vless-10.webn.cc
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/120.0.0.0 Safari/537.36
-      path: '/snippets?ip=proxyip:port(443)&nat64=6to4'
-    servername: vless-10.webn.cc
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1F7\U0001F1F4RO_1|1.3MB/s"
-    network: tcp
-    port: 27229
-    reality-opts:
-      public-key: 1_vS_JKpOvJnqPUDyaREbXWd5M59bIIKsNyV5Kt0uD8
-      short-id: cd1f804d
-    server: 31.6.1.187
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6a19af6c-aa6f-4f3b-a088-09e8a089338d
-    xudp: true
-    servername: store.steampowered.com
-  - client-fingerprint: chrome
-    name: "\U0001F1EE\U0001F1F9IT_1|1.3MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
-      short-id: ''
-    server: 147.45.51.160
-    tls: true
-    type: vless
-    udp: true
-    uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
-    xudp: true
-    servername: api.company-target.com
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1E7\U0001F1ECBG_1|2.3MB/s"
-    port: 443
-    reality-opts:
-      public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-      short-id: 8453e5fd9af927
-    server: bgr01-vlr01.tcp-reset-club.net
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 80074d6b-23c5-465e-a348-dcf0378fd1f2
-    network: tcp
-    servername: hls-svod.itunes.apple.com
-  - client-fingerprint: chrome
-    name: "\U0001F1E8\U0001F1E6CA_1|1.6MB/s"
-    port: 8080
-    reality-opts:
-      public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
-      short-id: 27cfa05000c23cc4
-    server: 81.19.140.20
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-    network: tcp
-    servername: yandex.com
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1E9\U0001F1EADE_1|1.4MB/s"
-    port: 44443
-    reality-opts:
-      public-key: XHjKkrNBYXOaamOx8IUCrwX0zp5dAQRVErHiQ5bwAEQ
-    server: 193.151.135.21
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33
-    network: tcp
-    servername: www.speedtest.net
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1F0\U0001F1FFKZ_1|1.8MB/s"
-    port: 443
-    reality-opts:
-      public-key: V6i1V9804ZfgT8nutUwDs5IDQdcY9pK5uO075SW4ml4
-      short-id: 2d46a79deebf50fd
-    server: kz.connect-iskra.ru
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: ed97e008-2b8d-4415-94c7-3da4919d361a
-    network: tcp
-    servername: deepl.com
-  - client-fingerprint: chrome
-    name: "\U0001F1F5\U0001F1F1PL_1|2.2MB/s"
-    port: 8080
-    reality-opts:
-      public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
-      short-id: 27cfa05000c23cc4
-    server: 45.144.51.23
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-    network: tcp
-    servername: yandex.com
+    up: '100'
   - down: ''
     fingerprint: ''
-    name: "\U0001F1EB\U0001F1F7FR_5|4.4MB/s"
+    name: "\U0001F1EB\U0001F1F7FR_2|3.0MB/s"
     obfs: ''
     obfs-password: ''
     password: dongtaiwang.com
@@ -259,52 +64,35 @@ proxies:
     sni: www.bing.com
     type: hysteria2
     up: ''
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F3\U0001F1F1NL_3|1.1MB/s"
-    obfs: salamander
-    obfs-password: GdQ4bgvT8RFwuWi2
-    password: 8864aa9f-7517-4fd5-aef1-32050eb3095d
-    port: 30205
-    server: 185.92.220.240
+  - name: "\U0001F1F7\U0001F1FARU_1|4.6MB/s"
+    password: 571ec94e-613c-430a-93de-397d3d237475
+    port: 22160
+    server: hsels.huasuan666.top
     skip-cert-verify: true
-    sni: net2025.afsharidempire.uk
+    sni: hsels.huasuan666.top
     type: hysteria2
-    up: ''
   - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8US_4|2.1MB/s"
-    network: tcp
-    port: 58571
-    reality-opts:
-      public-key: Es8F9jy6J_fOyobwq8y0NYzka2tmbSmBhGC46wUid3M
-      short-id: cce4ec6704fa9cf1
-    server: 23.128.116.219
-    skip-cert-verify: false
-    tfo: false
+    name: "\U0001F1FA\U0001F1F8US_3|3.8MB/s"
+    network: ws
+    port: 8443
+    server: 27.50.48.154
     tls: true
     type: vless
-    uuid: 51dd2b0a-13f5-41e3-b299-e5578e9c9e79
-    servername: icloud.com
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8US_5|1.3MB/s"
-    network: tcp
-    port: 30589
-    reality-opts:
-      public-key: 7rGbCPDLMQK4zzJDfGKMJuRDfRTXO1AKwAzQBx9U6Wk
-      short-id: 5c2dc4
-    server: 51.81.22.23
-    skip-cert-verify: false
-    tfo: false
-    tls: true
-    type: vless
-    uuid: 33f8cd86-a69b-4eac-97fd-b923d6cc38d5
-    servername: icloud.com
+    udp: true
+    uuid: 8d5911d9-f9f9-484f-8f67-5729ab5fd1af
+    ws-opts:
+      headers:
+        Host: saas.cfliu.filegear-sg.me
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/46.0.2490.80 Safari/537.36
+      path: '/snippets?ip=tw.tp81.netlib.re:81'
+    xudp: true
+    servername: saas.cfliu.filegear-sg.me
   - alterId: 0
     cipher: ''
     client-fingerprint: random
-    name: "\U0001F1FA\U0001F1F8US_6|4.2MB/s"
+    name: "\U0001F1FA\U0001F1F8US_4|1.2MB/s"
     network: ws
     port: 443
     server: freeyx.cloudflare88.eu.org
@@ -323,7 +111,7 @@ proxies:
   - alterId: 0
     cipher: ''
     client-fingerprint: random
-    name: "\U0001F1EC\U0001F1E7GB_1|3.0MB/s"
+    name: "\U0001F1EC\U0001F1E7GB_1|3.3MB/s"
     network: ws
     port: 443
     server: freev2.cloudflare.182682.xyz
@@ -339,760 +127,58 @@ proxies:
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2048
     servername: do-lon1.008883.xyz
-  - alterId: 0
-    cipher: ''
-    client-fingerprint: random
-    name: "\U0001F1FA\U0001F1F8US_7|2.8MB/s"
-    network: ws
-    port: 443
-    server: www.visa.com.hk
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    type: vless
-    uuid: 1b2b30da-7cb6-44e7-bbc7-739be50d7bbb
-    ws-opts:
-      headers:
-        Host: do-blr1.008883.xyz
-      path: /freev2.net
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    servername: do-blr1.008883.xyz
-  - alterId: 0
-    cipher: ''
-    client-fingerprint: random
-    name: "\U0001F1E6\U0001F1FAAU_1|1.3MB/s"
-    network: ws
-    port: 443
-    server: www.visa.com.hk
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    type: vless
-    uuid: 1b2b30da-7cb6-44e7-bbc7-739be50d7bbb
-    ws-opts:
-      headers:
-        Host: do-syd1.008883.xyz
-      path: /freev2.net
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    servername: do-syd1.008883.xyz
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_8|4.1MB/s"
-    network: ws
-    port: 443
-    server: ssssssssssssfffffffgh.2032.pp.ua
-    tls: true
-    type: vmess
-    uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
-    ws-opts:
-      headers:
-        Host: ssssssssssssfffffffgh.2032.pp.ua
-      path: /6We3U9Df1WGxgFnoFPw1
-    servername: ssssssssssssfffffffgh.2032.pp.ua
-  - delay: 672
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1FA\U0001F1F8US_9|3.6MB/s"
-    network: tcp
-    port: 15253
-    server: 5.78.52.105
-    type: vless
-    udp: true
-    uuid: 84566df5-a979-4194-94a2-720552440025
-    xudp: true
-  - delay: 1217
-    name: "\U0001F1FA\U0001F1F8US_10|5.6MB/s"
-    network: ws
-    port: 2095
-    server: itarmy.com.ua
-    type: vless
-    udp: true
-    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-    ws-opts:
-      headers:
-        Host: snippets.pusytroller.cf
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/49.0.2623.87 Safari/537.36
-      path: /
-    xudp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK_2|3.0MB/s"
-    network: ws
-    port: 2083
-    server: 104.26.12.31
-    skip-cert-verify: true
-    tfo: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: b67d8a57-e335-497b-afeb-f4ead830c834
-    ws-opts:
-      headers:
-        Host: vless-10.webn.cc
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/120.0.0.0 Safari/537.36
-      path: '/snippets?ip=proxyip:port(443)&nat64=6to4'
-    servername: vless-10.webn.cc
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_11|3.9MB/s"
-    network: ws
-    port: 443
-    server: 104.16.246.85
-    skip-cert-verify: true
-    tfo: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 0c0537c3-f0fb-40e6-bd59-f5038e1855ed
-    ws-opts:
-      headers:
-        Host: juzi.634676.xyz
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/120.0.0.0 Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: juzi.634676.xyz
-  - name: "\U0001F1FA\U0001F1F8US_12|3.4MB/s"
-    network: ws
-    port: 2083
-    server: 103.116.7.103
-    skip-cert-verify: false
-    tfo: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 8d5911d9-f9f9-484f-8f67-5729ab5fd1af
-    ws-opts:
-      headers:
-        Host: saas.cfliu.filegear-sg.me
-      path: '/snippets?ip=tw.tp81.netlib.re:81'
-    servername: saas.cfliu.filegear-sg.me
-  - name: "\U0001F1FA\U0001F1F8US_13|2.1MB/s"
-    network: ws
-    port: 2087
-    server: 209.94.90.87
-    skip-cert-verify: false
-    tfo: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 8d5911d9-f9f9-484f-8f67-5729ab5fd1af
-    ws-opts:
-      headers:
-        Host: saas.cfliu.filegear-sg.me
-      path: '/snippets?ip=tw.tp81.netlib.re:81'
-    servername: saas.cfliu.filegear-sg.me
-  - name: "\U0001F1FA\U0001F1F8US_14|1.5MB/s"
-    network: ws
-    port: 8443
-    server: 92.243.74.239
-    skip-cert-verify: false
-    tfo: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 8d5911d9-f9f9-484f-8f67-5729ab5fd1af
-    ws-opts:
-      headers:
-        Host: saas.cfliu.filegear-sg.me
-      path: '/snippets?ip=tw.tp81.netlib.re:81'
-    servername: saas.cfliu.filegear-sg.me
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_15|4.2MB/s"
-    network: ws
-    port: 443
-    server: registry.cyou
-    skip-cert-verify: false
-    tfo: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 01995fbf-d383-154f-98a0-5ff16ca40a79
-    ws-opts:
-      headers:
-        Host: sni.wwxgxn.cfd
-      path: '/snippets?ip=proxyip:port(443)'
-    servername: sni.wwxgxn.cfd
-  - name: "\U0001F1FA\U0001F1F8US_16|4.2MB/s"
-    network: ws
-    port: 2096
-    server: 185.225.195.50
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.sosocn.abrdns.com
-      path: /snippets
-    servername: saas.sosocn.abrdns.com
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_17|1.7MB/s"
-    network: ws
-    port: 443
-    server: HHhjjMKi.457.PP.Ua
-    tls: true
-    type: vmess
-    uuid: 9f1673a0-688a-4f31-85fa-af40b03c708a
-    ws-opts:
-      headers:
-        Host: HHhjjMKi.457.PP.Ua
-      path: /hepNwpzuxszIxZMQZRJ
-    servername: HHhjjMKi.457.PP.Ua
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_18|1.6MB/s"
-    network: ws
-    port: 443
-    server: HhHjJMki.457.pP.uA
-    tls: true
-    type: vmess
-    uuid: da7e8bcf-b195-4d69-a667-24f9a7673a11
-    ws-opts:
-      headers:
-        Host: HhHjJMki.457.pP.uA
-      path: /hepNwpzuxszIxZMQZRJ
-    servername: HhHjJMki.457.pP.uA
   - client-fingerprint: chrome
     flow: xtls-rprx-vision
-    name: "\U0001F1E8\U0001F1E6CA_2|2.0MB/s"
+    name: "\U0001F1EB\U0001F1F7FR_3|2.3MB/s"
     network: tcp
-    port: 59303
+    port: 443
     reality-opts:
-      public-key: FHm9vc9hi1aK9jz8CqCjhJvT0bxzsD470FvOyubB6EA
-      short-id: bbe06294
-    server: 40.233.81.116
+      public-key: 21MNt-O8tq9gP9o7yeT9iVQslHPdNVHtqI9Kg5p-lHo
+    server: 38.54.122.118
     tls: true
     type: vless
     udp: true
-    uuid: 862e90e1-2f26-4506-b8b9-0adf20da05fc
-    servername: www.yahoo.com
-  - name: "\U0001F1FA\U0001F1F8US_19|3.3MB/s"
+    uuid: 9f4b9824-df02-49c3-a976-d4f9a31f81fe
+    servername: dash.cloudflare.com
+  - name: "\U0001F1FA\U0001F1F8US_5|2.8MB/s"
     network: ws
     port: 2096
-    server: 185.16.110.50
+    server: 193.233.132.62
     tls: true
     type: vless
     udp: true
     uuid: 12345678-1234-1234-1234-123456789123
     ws-opts:
       headers:
-        Host: saas.sosocn.abrdns.com
-      path: /snippets
-    servername: saas.sosocn.abrdns.com
-  - name: "\U0001F1FA\U0001F1F8US_20|3.5MB/s"
-    network: ws
-    port: 2096
-    server: 103.169.142.52
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
+        Host: ss.nzvrn.com
       path: /snippets&freecodes @节点狂魔 /
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_21|2.5MB/s"
+    servername: ss.nzvrn.com
+  - name: "\U0001F1FA\U0001F1F8US_6|3.0MB/s"
     network: ws
     port: 2096
-    server: 195.13.45.52
+    server: 213.182.199.62
     tls: true
     type: vless
     udp: true
     uuid: 12345678-1234-1234-1234-123456789123
     ws-opts:
       headers:
-        Host: saas.git.cloudns.org
+        Host: ss.nzvrn.com
       path: /snippets&freecodes @节点狂魔 /
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_22|2.2MB/s"
-    network: ws
-    port: 2096
-    server: 166.62.113.52
+    servername: ss.nzvrn.com
+  - name: "\U0001F1F9\U0001F1FCTW_1|5.5MB/s"
+    password: exaxgqkKkd0TAMrCxeonWg==
+    port: 1443
+    server: twmoon1-cdn-route.couldflare-cdn.com
+    skip-cert-verify: true
     tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes@节点狂魔/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_23|1.1MB/s"
-    network: ws
-    port: 2096
-    server: 77.37.33.52
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes @节点狂魔 /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_24|2.9MB/s"
-    network: ws
-    port: 2096
-    server: 185.18.184.52
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes @节点狂魔 /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_25|1.8MB/s"
-    network: ws
-    port: 2096
-    server: 192.169.220.52
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes @节点狂魔 /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_26|1.9MB/s"
-    network: ws
-    port: 2096
-    server: 154.219.5.52
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes @节点狂魔 /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_27|1.6MB/s"
-    network: ws
-    port: 2096
-    server: 166.62.115.52
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes@节点狂魔/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_28|2.6MB/s"
-    network: ws
-    port: 2096
-    server: 147.185.161.52
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes @节点狂魔 /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_29|1.0MB/s"
-    network: ws
-    port: 2096
-    server: 80.93.202.52
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes @节点狂魔 /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_30|2.0MB/s"
-    network: ws
-    port: 2096
-    server: 45.40.155.52
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes @节点狂魔 /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_31|1.0MB/s"
-    network: ws
-    port: 2096
-    server: 50.62.172.52
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes @节点狂魔 /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_32|1.3MB/s"
-    network: ws
-    port: 2096
-    server: 45.85.119.52
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes@节点狂魔/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_33|2.0MB/s"
-    network: ws
-    port: 2096
-    server: 72.167.230.52
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes@节点狂魔/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_34|2.4MB/s"
-    network: ws
-    port: 2096
-    server: 114.129.43.52
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes@节点狂魔/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_35|3.2MB/s"
-    network: ws
-    port: 2096
-    server: 45.135.235.52
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes@节点狂魔/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_36|4.1MB/s"
-    network: ws
-    port: 2096
-    server: 166.62.104.52
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes @节点狂魔 /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_37|1.6MB/s"
-    network: ws
-    port: 2096
-    server: 188.164.159.52
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes@节点狂魔/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_38|1.7MB/s"
-    network: ws
-    port: 2096
-    server: 166.62.106.50
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.sosocn.abrdns.com
-      path: /snippets
-    servername: saas.sosocn.abrdns.com
-  - name: "\U0001F1FA\U0001F1F8US_39|1.6MB/s"
-    network: ws
-    port: 2096
-    server: 167.68.5.50
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.sosocn.abrdns.com
-      path: /snippets
-    servername: saas.sosocn.abrdns.com
-  - name: "\U0001F1FA\U0001F1F8US_40|1.9MB/s"
-    network: ws
-    port: 2096
-    server: 72.167.242.52
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes @节点狂魔 /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_41|2.2MB/s"
-    network: ws
-    port: 2096
-    server: 188.42.88.52
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes @节点狂魔 /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_42|3.4MB/s"
-    network: ws
-    port: 2096
-    server: 198.71.190.52
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes@节点狂魔/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_43|1.1MB/s"
-    network: ws
-    port: 2096
-    server: 45.8.211.52
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes@节点狂魔/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_44|1.5MB/s"
-    network: ws
-    port: 2096
-    server: 185.135.9.50
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.sosocn.abrdns.com
-      path: /snippets
-    servername: saas.sosocn.abrdns.com
-  - name: "\U0001F1FA\U0001F1F8US_45|2.4MB/s"
-    network: ws
-    port: 2096
-    server: 160.153.1.52
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes @节点狂魔 /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_46|1.1MB/s"
-    network: ws
-    port: 2096
-    server: 184.174.80.52
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes @节点狂魔 /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_47|2.2MB/s"
-    network: ws
-    port: 2096
-    server: 185.148.107.52
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes@节点狂魔/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_48|4.4MB/s"
-    network: ws
-    port: 2096
-    server: 213.241.198.52
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes@节点狂魔/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_49|1.0MB/s"
-    network: ws
-    port: 2096
-    server: 139.64.235.52
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes@节点狂魔/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_50|1.6MB/s"
-    network: ws
-    port: 2096
-    server: 193.233.21.52
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes @节点狂魔 /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_51|1.7MB/s"
-    network: ws
-    port: 2096
-    server: 45.194.11.52
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes @节点狂魔 /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_52|1.8MB/s"
-    network: ws
-    port: 2096
-    server: 45.40.152.52
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes@节点狂魔/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
-  - name: "\U0001F1FA\U0001F1F8US_53|1.8MB/s"
-    network: ws
-    port: 2096
-    server: 185.225.195.52
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: saas.git.cloudns.org
-      path: /snippets&freecodes @节点狂魔 /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: saas.git.cloudns.org
+    type: http
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    sni: twmoon1-cdn-route.couldflare-cdn.com
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
