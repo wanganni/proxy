@@ -1,61 +1,10 @@
 proxies:
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    delay: 2116
-    down: '55'
-    name: "\U0001F1F3\U0001F1F1NL_1|1.1MB/s"
-    obfs: ''
-    port: 49003
-    protocol: ''
-    server: 51.159.226.1
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: '11'
-  - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: randomized
-    name: "\U0001F1FA\U0001F1F8US_1|1.6MB/s"
-    network: ws
-    password: '8r<[9''l6hAO#8ZQi'
-    port: 8443
-    server: 172.66.44.230
-    skip-cert-verify: false
-    sni: Koma-YT.PAGeS.Dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/45.0.2454.101 Safari/537.36
-      path: /tro8sFW1S91B6sZrM1
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-  - cipher: aes-256-cfb
-    name: "\U0001F1EB\U0001F1F7FR_1|1.6MB/s"
-    password: f8f7aCzcPKbsF8p3
-    port: 989
-    server: 195.154.119.77
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_1|5.7MB/s"
-    password: BxceQaOe
-    port: 9713
-    server: 36.150.215.197
-    skip-cert-verify: true
-    type: trojan
-    udp: true
   - alterId: 0
     cipher: ''
     client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: "\U0001F1EE\U0001F1E9ID_1|1.4MB/s"
+    name: "\U0001F1EE\U0001F1E9ID_1|2.9MB/s"
     network: tcp
     port: 53300
     reality-opts:
@@ -69,26 +18,47 @@ proxies:
     udp: true
     uuid: 6c0472bc-82df-449e-90bd-2f91c6a46402
     servername: www.lamer.com.sg
-  - cipher: aes-256-gcm
-    name: "\U0001F1F0\U0001F1F7KR_1|2.7MB/s"
-    password: dada0801
-    port: 80
-    server: 3.36.109.137
-    skip-cert-verify: true
-    tfo: false
+  - cipher: aes-256-cfb
+    name: "\U0001F1EB\U0001F1F7FR_1|1.2MB/s"
+    password: f8f7aCzcPKbsF8p3
+    port: 989
+    server: 195.154.119.77
     type: ss
     udp: true
-  - cipher: aes-256-gcm
-    name: "\U0001F1F0\U0001F1F7KR_2|1.9MB/s"
-    password: dada0801
-    port: 80
-    server: 54.180.158.53
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1F9\U0001F1FCTW_1|1.6MB/s"
+    port: 41491
+    server: iplc.steven1.top
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: ef2ddfaa-207b-4be6-86db-4826030df4d5
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    auth_str: dongtaiwang.com
+    delay: 2116
+    down: '55'
+    name: "\U0001F1F3\U0001F1F1NL_1|2.2MB/s"
+    obfs: ''
+    port: 49003
+    protocol: ''
+    server: 51.159.226.1
     skip-cert-verify: true
-    tfo: false
-    type: ss
+    sni: apple.com
+    type: hysteria
+    up: '11'
+  - auth: 94931862-1484-11f0-9ab7-f23c95b6f51d
+    name: "\U0001F1FA\U0001F1F8US_1|2.3MB/s"
+    password: 94931862-1484-11f0-9ab7-f23c95b6f51d
+    port: 1743
+    server: 98f4acfe-t4un40-tdini3-cdfn.la.shifen.uk
+    type: hysteria2
     udp: true
+    sni: 98f4acfe-t4un40-tdini3-cdfn.la.shifen.uk
   - auth: 7a2512b4-09ee-11f0-8d46-f23c9313b177
-    name: "\U0001F1FA\U0001F1F8US_2|1.9MB/s"
+    name: "\U0001F1FA\U0001F1F8US_2|2.2MB/s"
     password: 7a2512b4-09ee-11f0-8d46-f23c9313b177
     port: 1743
     server: 67e01b04-t3dk00-tcm6ys-deip.la.shifen.uk
@@ -96,52 +66,24 @@ proxies:
     type: hysteria2
     udp: true
     sni: 67e01b04-t3dk00-tcm6ys-deip.la.shifen.uk
-  - auth: 537d7098-fdbe-11ef-8ebc-f23c93141fad
-    name: "\U0001F1FA\U0001F1F8US_3|1.9MB/s"
-    password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
+  - auth: 17cdeb6c-f046-11ee-bdac-f23c93141fad
+    client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_3|1.8MB/s"
+    password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
     port: 1743
-    server: 825eee23-t4un40-tcj7b6-d70y.la.shifen.uk
-    type: hysteria2
-    udp: true
-    sni: 825eee23-t4un40-tcj7b6-d70y.la.shifen.uk
-  - auth: 6286105c-fb6d-11ef-be96-f23c93136cb3
-    name: "\U0001F1FA\U0001F1F8US_4|2.2MB/s"
-    password: 6286105c-fb6d-11ef-be96-f23c93136cb3
-    port: 1743
-    server: 68f48101-t4teo0-t5waci-4550.la.shifen.uk
+    server: 6adab57e-t53wg0-tdvgqe-2gok.la.shifen.uk
     skip-cert-verify: false
     type: hysteria2
+    sni: 6adab57e-t53wg0-tdvgqe-2gok.la.shifen.uk
+  - auth: 07502194-d80e-4f7e-92df-e549f1212b85
+    name: "\U0001F1E9\U0001F1EADE_1|3.6MB/s"
+    password: 07502194-d80e-4f7e-92df-e549f1212b85
+    port: 30303
+    server: 62.164.193.47
+    skip-cert-verify: true
+    sni: v3-prime-xg-web-pc.ixigua.com
+    type: hysteria2
     udp: true
-    sni: 68f48101-t4teo0-t5waci-4550.la.shifen.uk
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: "\U0001F1ED\U0001F1F0HK_1|1.3MB/s"
-    network: tcp
-    port: 27011
-    reality-opts:
-      public-key: aim-Scm0sKrNoL2GgQQ-1icyQ7ozPYhzsouAgUKHkxk
-      short-id: 072d4954
-    server: d8e69dfca0f5.anondns.net
-    skip-cert-verify: false
-    tfo: false
-    tls: true
-    type: vless
-    uuid: fc1d486f-a7ce-4afc-83ea-da5a32d42ac4
-    servername: mensura.cdn-apple.com
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8US_5|1.1MB/s"
-    network: tcp
-    port: 12678
-    reality-opts:
-      public-key: C26xETG6Ml6UTqEtZkAw9Js5qHHFJioQms5pRSIvOhQ
-    server: 66.92.249.195
-    skip-cert-verify: false
-    tfo: false
-    tls: true
-    type: vless
-    uuid: 0cc8a3d4-a51c-4651-a2d4-0b4664fbdaee
-    servername: www.amazon.com
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
