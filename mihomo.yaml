@@ -1,61 +1,11 @@
 proxies:
-  - encryption: none
-    grpc-opts:
-      grpc-service-name: >-
-        ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-    name: "\U0001F1EB\U0001F1F7FR_1|2.4MB/s"
-    network: grpc
-    port: 22291
-    server: 141.227.180.39
-    type: vless
-    udp: true
-    uuid: 9b49cf25-e2f2-4ef6-9c54-ef0b785db804
-    xudp: true
-  - cipher: aes-256-cfb
-    country: "\U0001F1EB\U0001F1F7FR"
-    name: "\U0001F1EB\U0001F1F7FR_2|1.2MB/s"
-    password: amazonskr05
-    port: 443
-    server: 13.36.166.230
-    type: ss
-  - alterId: 0
-    cipher: ''
-    client-fingerprint: safari
-    flow: xtls-rprx-vision
-    name: "\U0001F1F8\U0001F1ECSG_1|1.2MB/s"
-    port: 443
-    reality-opts:
-      public-key: DIOhRsebFvsPYub2ooeF8Uho0leKt59yO0B2rKw6-HE
-      short-id: 8d9411a259b44855
-    server: kb.aws7.yydjc.top
-    tls: true
-    type: vless
-    udp: true
-    uuid: f193c966-9e80-46da-bc5a-9eaaac0ea941
-    network: tcp
-    servername: iosapps.itunes.apple.com
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    delay: 1382
-    down: '100'
-    name: "\U0001F1EB\U0001F1F7FR_3|1.2MB/s"
-    obfs: ''
-    port: 15010
-    protocol: ''
-    server: 195.154.200.40
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: '100'
   - alpn:
       - h3
     auth-str: dongtaiwang.com
     auth_str: dongtaiwang.com
     delay: 2116
     down: '55'
-    name: "\U0001F1F3\U0001F1F1NL_1|1.8MB/s"
+    name: "\U0001F1F3\U0001F1F1NL_1|1.1MB/s"
     obfs: ''
     port: 49003
     protocol: ''
@@ -64,213 +14,134 @@ proxies:
     sni: apple.com
     type: hysteria
     up: '11'
-  - client-fingerprint: chrome
-    delay: 1431
-    name: "\U0001F1FA\U0001F1F8US_1|692KB/s"
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: randomized
+    name: "\U0001F1FA\U0001F1F8US_1|1.6MB/s"
     network: ws
     password: '8r<[9''l6hAO#8ZQi'
     port: 8443
-    server: koma-yt.pages.dev
+    server: 172.66.44.230
     skip-cert-verify: false
     sni: Koma-YT.PAGeS.Dev
     type: trojan
     udp: true
     ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
       headers:
-        User-Agent: >-
-          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
-          (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
-      max-early-data: 2560
-      path: /tro8sFW1S91B6sZrM1
-  - delay: 886
-    grpc-opts:
-      grpc-service-name: >-
-        ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-    name: "\U0001F1EB\U0001F1F7FR_4|1.4MB/s"
-    network: grpc
-    port: 21232
-    server: 141.227.170.178
-    type: vless
-    udp: true
-    uuid: 5e0eddef-95cd-4109-9807-0f32062939f3
-    xudp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_2|1.1MB/s"
-    network: ws
-    port: 33538
-    server: 142.171.202.202
-    skip-cert-verify: true
-    tfo: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 01996549-6892-dbf0-0453-f700236936bd
-    ws-opts:
-      headers:
-        Host: kejiland.freewarp.eu.org
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/120.0.0.0 Safari/537.36
-      path: '/snippets/ip=proxyip.fxxk.dedyn.io:443'
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: kejiland.freewarp.eu.org
-  - encryption: none
-    name: "\U0001F1FA\U0001F1F8US_3|606KB/s"
-    network: ws
-    port: 2096
-    server: 185.7.240.32
-    tls: true
-    type: vless
-    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-    ws-opts:
-      headers:
-        Host: kejiland.freewarp.eu.org
-      path: /snippets
-    servername: kejiland.freewarp.eu.org
-  - encryption: none
-    name: "\U0001F1FA\U0001F1F8US_4|886KB/s"
-    network: ws
-    port: 2096
-    server: 185.207.196.44
-    tls: true
-    type: vless
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: kejiland.freewarp.eu.org
-      path: /snippets
-    servername: kejiland.freewarp.eu.org
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_5|2.0MB/s"
-    network: ws
-    port: 2096
-    server: 154.206.12.32
-    skip-cert-verify: true
-    tfo: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
-    ws-opts:
-      headers:
-        Host: kejiland.freewarp.eu.org
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/120.0.0.0 Safari/537.36
-      path: /snippets
-    servername: kejiland.freewarp.eu.org
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_6|2.2MB/s"
-    network: ws
-    port: 2096
-    server: 198.71.232.44
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: kejiland.freewarp.eu.org
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile
-          Safari/537.36
-      path: /snippets
-    xudp: true
-    servername: kejiland.freewarp.eu.org
-  - alterId: 0
-    name: "\U0001F1FA\U0001F1F8US_7|525KB/s"
-    network: ws
-    password: wb6368
-    port: 2087
-    server: 92.243.75.49
-    skip-cert-verify: true
-    sni: hsdgbuys.pages.dev
-    type: trojan
-    udp: true
-    ws-opts:
-      path: /
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1FA\U0001F1F8US_8|720KB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 790e385a-7b0a-47bd-8d2a-254e6a12c2ca
-    port: 37771
-    server: xjp1.xiaohuolongjc.top
-    skip-cert-verify: true
-    sni: xjp1.xiaohuolongjc.top
-    type: hysteria2
-    up: ''
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_9|665KB/s"
-    network: ws
-    port: 2096
-    server: 170.114.45.44
-    tls: true
-    type: vless
-    udp: true
-    uuid: 12345678-1234-1234-1234-123456789123
-    ws-opts:
-      headers:
-        Host: kejiland.freewarp.eu.org
         User-Agent: >-
           Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/50.0.2661.102 Safari/537.36
-      path: /snippetsfp=chrome
-    xudp: true
-    servername: kejiland.freewarp.eu.org
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_1|541KB/s"
-    network: ws
-    port: 80
-    server: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-    ws-opts:
-      headers:
-        Host: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net
-      path: /
-    xudp: true
-    servername: broadcastlv.chat.bilibili.com
-  - alterId: 0
-    cipher: ''
-    client-fingerprint: edge
-    flow: xtls-rprx-vision
-    name: "\U0001F1EF\U0001F1F5JP_1|1.8MB/s"
-    port: 443
-    reality-opts:
-      public-key: yzIdIf5RpR-rTzlULRjJoCgcQdx3-yXKl7eT7IuThn4
-      short-id: bb9ab0d5242d53e9
-    server: kb.vmjp.yydjc.top
-    tls: true
-    type: vless
-    udp: true
-    uuid: f193c966-9e80-46da-bc5a-9eaaac0ea941
-    network: tcp
-    servername: iosapps.itunes.apple.com
-  - client-fingerprint: random
-    name: "\U0001F1FA\U0001F1F8US_10|1.6MB/s"
-    network: ws
-    port: 443
-    server: www.visa.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 32698d90-d663-41ff-83e5-c4f74fac12cd
-    ws-opts:
-      headers:
-        Host: marco67.sylu.net
-      path: /
+          Gecko) Chrome/45.0.2454.101 Safari/537.36
+      path: /tro8sFW1S91B6sZrM1
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
-    servername: marco67.sylu.net
+  - cipher: aes-256-cfb
+    name: "\U0001F1EB\U0001F1F7FR_1|1.6MB/s"
+    password: f8f7aCzcPKbsF8p3
+    port: 989
+    server: 195.154.119.77
+    type: ss
+    udp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1F8\U0001F1ECSG_1|5.7MB/s"
+    password: BxceQaOe
+    port: 9713
+    server: 36.150.215.197
+    skip-cert-verify: true
+    type: trojan
+    udp: true
+  - alterId: 0
+    cipher: ''
+    client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1EE\U0001F1E9ID_1|1.4MB/s"
+    network: tcp
+    port: 53300
+    reality-opts:
+      public-key: ''
+      short-id: ''
+    server: aws-linkidnvip2.evoay.com
+    skip-cert-verify: true
+    tfo: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6c0472bc-82df-449e-90bd-2f91c6a46402
+    servername: www.lamer.com.sg
+  - cipher: aes-256-gcm
+    name: "\U0001F1F0\U0001F1F7KR_1|2.7MB/s"
+    password: dada0801
+    port: 80
+    server: 3.36.109.137
+    skip-cert-verify: true
+    tfo: false
+    type: ss
+    udp: true
+  - cipher: aes-256-gcm
+    name: "\U0001F1F0\U0001F1F7KR_2|1.9MB/s"
+    password: dada0801
+    port: 80
+    server: 54.180.158.53
+    skip-cert-verify: true
+    tfo: false
+    type: ss
+    udp: true
+  - auth: 7a2512b4-09ee-11f0-8d46-f23c9313b177
+    name: "\U0001F1FA\U0001F1F8US_2|1.9MB/s"
+    password: 7a2512b4-09ee-11f0-8d46-f23c9313b177
+    port: 1743
+    server: 67e01b04-t3dk00-tcm6ys-deip.la.shifen.uk
+    skip-cert-verify: false
+    type: hysteria2
+    udp: true
+    sni: 67e01b04-t3dk00-tcm6ys-deip.la.shifen.uk
+  - auth: 537d7098-fdbe-11ef-8ebc-f23c93141fad
+    name: "\U0001F1FA\U0001F1F8US_3|1.9MB/s"
+    password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
+    port: 1743
+    server: 825eee23-t4un40-tcj7b6-d70y.la.shifen.uk
+    type: hysteria2
+    udp: true
+    sni: 825eee23-t4un40-tcj7b6-d70y.la.shifen.uk
+  - auth: 6286105c-fb6d-11ef-be96-f23c93136cb3
+    name: "\U0001F1FA\U0001F1F8US_4|2.2MB/s"
+    password: 6286105c-fb6d-11ef-be96-f23c93136cb3
+    port: 1743
+    server: 68f48101-t4teo0-t5waci-4550.la.shifen.uk
+    skip-cert-verify: false
+    type: hysteria2
+    udp: true
+    sni: 68f48101-t4teo0-t5waci-4550.la.shifen.uk
+  - client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: "\U0001F1ED\U0001F1F0HK_1|1.3MB/s"
+    network: tcp
+    port: 27011
+    reality-opts:
+      public-key: aim-Scm0sKrNoL2GgQQ-1icyQ7ozPYhzsouAgUKHkxk
+      short-id: 072d4954
+    server: d8e69dfca0f5.anondns.net
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    type: vless
+    uuid: fc1d486f-a7ce-4afc-83ea-da5a32d42ac4
+    servername: mensura.cdn-apple.com
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8US_5|1.1MB/s"
+    network: tcp
+    port: 12678
+    reality-opts:
+      public-key: C26xETG6Ml6UTqEtZkAw9Js5qHHFJioQms5pRSIvOhQ
+    server: 66.92.249.195
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    type: vless
+    uuid: 0cc8a3d4-a51c-4651-a2d4-0b4664fbdaee
+    servername: www.amazon.com
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
