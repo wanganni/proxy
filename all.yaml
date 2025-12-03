@@ -1,49 +1,162 @@
 proxies:
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1EE\U0001F1F3IN_1|1.1MB/s"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: LnHe8OE64vocdz6Xk_d6iuEfj-HmimAkLPk1TeTGpxs
-        short-id: f5320ae817
-      server: netherlands85.clearorbitllc.com
-      servername: netherlands85.clearorbitllc.com
+    - auth: ""
+      fast-open: false
+      mport: 35000-39000
+      name: "\U0001F1FA\U0001F1F8US_1|6.0MB/s"
+      password: 02fe8dae-73b7-4f1d-a992-f0e226a98f27
+      port: 35000
+      ports: 35000-39000
+      server: 134.195.101.191
+      servername: www.apple.com
+      skip-cert-verify: true
+      sni: www.apple.com
+      type: hysteria2
+      udp: true
+    - client-fingerprint: random
+      name: "\U0001F1FA\U0001F1F8US_2|1.1MB/s"
+      network: ws
+      port: 443
+      server: 162.159.42.161
+      servername: sni.111000.dynv6.net
+      skip-cert-verify: false
+      tfo: false
       tls: true
       type: vless
-      udp: true
-      uuid: 935c3575-4b93-4c03-8399-62b2d0efe0d2
-      xudp: true
+      uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+      ws-opts:
+        headers:
+            Host: sni.111000.dynv6.net
+        path: /?ed=2560
     - alpn:
         - h3
       auth-str: dongtaiwang.com
       auth_str: dongtaiwang.com
-      country: "\U0001F1EB\U0001F1F7FR"
-      delay: 1208
-      down: "100"
-      name: "\U0001F1EB\U0001F1F7FR_1|2.0MB/s"
-      port: 15010
+      down: 55 Mbps
+      name: "\U0001F1EB\U0001F1F7FR_1|1.2MB/s"
+      port: 50011
       protocol: udp
-      server: 195.154.200.40
+      server: 62.210.10.186
       skip-cert-verify: true
       sni: apple.com
       type: hysteria
       udp: true
-      up: "100"
-    - name: "\U0001F1FA\U0001F1F8US_1|1.5MB/s"
+      up: 11 Mbps
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_3|2.7MB/s"
       network: ws
       port: 443
-      server: 69.84.182.18
-      servername: cdn-node-oss-63.paofu.de
+      server: cloudflare-cm-ip-ddns.sakuraikaede.com
+      servername: us.alice.cloudns.pro
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
+      ws-opts:
+        headers:
+            Host: us.alice.cloudns.pro
+        path: /siehdfioshfiosdfskkk
+        v2ray-http-upgrade: true
+        v2ray-http-upgrade-fast-open: true
+    - client-fingerprint: random
+      name: "\U0001F1FA\U0001F1F8US_4|2.1MB/s"
+      network: ws
+      port: 443
+      server: 162.159.45.172
+      servername: sni.111000.dynv6.net
+      skip-cert-verify: false
+      tfo: false
+      tls: true
+      type: vless
+      uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+      ws-opts:
+        headers:
+            Host: sni.111000.dynv6.net
+        path: /?ed=2560
+    - client-fingerprint: random
+      name: "\U0001F1FA\U0001F1F8US_5|2.0MB/s"
+      network: ws
+      port: 443
+      server: 162.159.43.118
+      servername: sni.111000.dynv6.net
+      skip-cert-verify: false
+      tfo: false
+      tls: true
+      type: vless
+      uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+      ws-opts:
+        headers:
+            Host: sni.111000.dynv6.net
+        path: /?ed=2560
+    - client-fingerprint: random
+      name: "\U0001F1FA\U0001F1F8US_6|2.3MB/s"
+      network: ws
+      port: 443
+      server: 104.18.37.87
+      servername: sni.111000.dynv6.net
+      skip-cert-verify: false
+      tfo: false
+      tls: true
+      type: vless
+      uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+      ws-opts:
+        headers:
+            Host: sni.111000.dynv6.net
+        path: /?ed=2560
+    - name: "\U0001F1FA\U0001F1F8US_7|1.4MB/s"
+      network: ws
+      password: 8r<[9'l6hAO#8ZQi
+      port: 8443
+      server: 172.66.44.230
+      skip-cert-verify: false
+      sni: Koma-YT.PAGeS.Dev
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            Host: Koma-YT.PAGeS.Dev
+        path: /tro8sFW1S91B6sZrM1
+    - encryption: none
+      grpc-opts:
+        grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+      name: "\U0001F1EB\U0001F1F7FR_2|5.2MB/s"
+      network: grpc
+      port: "56089"
+      server: 141.227.172.96
+      type: vless
+      udp: true
+      uuid: 2d535288-d08e-4de4-b674-fd8cb3c6e4d3
+      xudp: true
+    - encryption: none
+      name: "\U0001F1FA\U0001F1F8US_8|1.2MB/s"
+      network: ws
+      port: "80"
+      server: 172.66.156.81
+      type: vless
+      udp: true
+      uuid: 5f9917b6-cdba-4f17-8c90-a2a66d15668f
+      ws-opts:
+        headers:
+            Host: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
+            User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+        path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F3\U0001F1F1NL_1|1.6MB/s"
+      network: ws
+      port: "443"
+      server: cosmin.ns.cloudflare.com
+      servername: 639002745868715407.golf-amsir.info
       tls: true
       type: vless
       udp: true
-      uuid: a25ff90c-964c-485a-b72a-858864a27dc0
+      uuid: 097712e8-666a-42e2-aebf-c03d597d8482
       ws-opts:
         headers:
-            Host: cdn-node-oss-63.paofu.de
-        path: /profile/sharenode
+            Host: 639002745868715407.golf-amsir.info
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+        path: /mcqvlfws
+      xudp: true
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
@@ -51,270 +164,61 @@ proxies:
         headers: {}
         path:
             - /
-      name: "\U0001F1E9\U0001F1EADE_1|2.8MB/s"
+      name: "\U0001F1E9\U0001F1EADE_1|2.4MB/s"
       network: tcp
-      port: "444"
+      port: "443"
       reality-opts:
-        public-key: FOSoac3DIrSrCUcBtQA-BdHMxCtqe2CYCpdvGxKMiUw
-        short-id: 82b9ca5d8d39ba72
-      server: 151.236.15.72
-      servername: opensuse.org
+        public-key: FscaEWx0paNBzL7GWHj4Fll7Xc-KxdhKgTthBAnByWI
+        short-id: ""
+      server: 151.243.171.156
+      servername: pingless.com
       tls: true
       type: vless
       udp: true
-      uuid: faaaf16e-188e-42f2-bcc1-17feadc84fad
+      uuid: 669be00c-67b4-4b87-b08f-311c45abced2
       xudp: true
-    - alterId: 0
-      cipher: ""
-      client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1EE\U0001F1E9ID_1|6.0MB/s"
-      network: tcp
-      port: 53300
-      reality-opts:
-        public-key: ""
-        short-id: ""
-      server: aws-linkidnvip2.evoay.com
-      servername: www.lamer.com.sg
-      skip-cert-verify: true
-      sni: www.lamer.com.sg
+    - client-fingerprint: random
+      name: "\U0001F1FA\U0001F1F8US_9|1.3MB/s"
+      network: ws
+      port: 443
+      server: www.shopify.com
+      servername: sni.111000.dynv6.net
+      skip-cert-verify: false
       tfo: false
       tls: true
       type: vless
-      udp: true
-      uuid: 6c0472bc-82df-449e-90bd-2f91c6a46402
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F1FA\U0001F1F8US"
-      delay: 2201
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1FA\U0001F1F8US_2|4.2MB/s"
+      uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+      ws-opts:
+        headers:
+            Host: sni.111000.dynv6.net
+        path: /?ed=2560
+    - client-fingerprint: random
+      name: "\U0001F1FA\U0001F1F8US_10|2.7MB/s"
       network: ws
       port: 443
-      server: wto.org
-      servername: floral-vol-lexington-liverpool.trycloudflare.com
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 97b5343c-f8bd-40f2-b32d-7c98e1c196d4
-      ws-opts:
-        early-data-header-name: Sec-WebSocket-Protocol
-        headers:
-            HOST: floral-vol-lexington-liverpool.trycloudflare.com
-        max-early-data: 2048
-        path: /97b5343c-f8bd-40f2-b32d-7c98e1c196d4-vm
-    - auth: 526a1128-7487-11ee-9bca-f23c913c8d2b
-      name: "\U0001F1FA\U0001F1F8US_3|2.1MB/s"
-      password: 526a1128-7487-11ee-9bca-f23c913c8d2b
-      port: 443
-      ports: 30000-60000
-      server: a66f0097-t53wg0-t6eg6k-1pckg.us.hyhuawei.com
-      sni: a66f0097-t53wg0-t6eg6k-1pckg.us.hyhuawei.com
-      type: hysteria2
-      udp: true
-    - auth: 88f6e3c4-1d01-11ef-812c-f23c91cfbbc9
-      name: "\U0001F1FA\U0001F1F8US_4|1.9MB/s"
-      password: 88f6e3c4-1d01-11ef-812c-f23c91cfbbc9
-      port: 443
-      ports: 30000-60000
-      server: 1c6f6574-t53wg0-thmjbt-1rk9y.us.hyhuawei.com
-      sni: 1c6f6574-t53wg0-thmjbt-1rk9y.us.hyhuawei.com
-      type: hysteria2
-      udp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1ED\U0001F1F0HK_1|5.3MB/s"
-      password: BxceQaOe
-      port: "194"
-      server: 36.151.192.242
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - cipher: dummy
-      name: "\U0001F1FA\U0001F1F8US_5|1.5MB/s"
-      obfs: tls1.2_ticket_auth
-      obfs-param: ""
-      password: M8$o4sx7CGXDJt
-      port: 55874
-      protocol: auth_chain_a
-      protocol-param: ""
-      server: ssr.zsss.eu.org
-      type: ssr
-    - auth: e668cd78-6892-11eb-a8bf-f23c91cfbbc9
-      name: "\U0001F1FA\U0001F1F8US_6|1.7MB/s"
-      password: e668cd78-6892-11eb-a8bf-f23c91cfbbc9
-      port: 443
-      ports: 30000-60000
-      server: 86d2be92-t55r40-t8izjf-20qs.us.hyhuawei.com
-      type: hysteria2
-      udp: true
-    - auth: ca9c0c54-1513-11f0-8a7b-f23c913c8d2b
-      name: "\U0001F1FA\U0001F1F8US_7|2.1MB/s"
-      password: ca9c0c54-1513-11f0-8a7b-f23c913c8d2b
-      port: 443
-      ports: 30000-60000
-      server: c62f5f7f-t55r40-tdahby-1tnab.us.hyhuawei.com
-      type: hysteria2
-      udp: true
-    - auth: 06c625ea-5902-11ee-9e87-f23c9313b177
-      name: "\U0001F1FA\U0001F1F8US_8|2.5MB/s"
-      password: 06c625ea-5902-11ee-9e87-f23c9313b177
-      port: 1743
-      ports: 20000-50000
-      server: ef8f5ed9-t55r40-t5ksa0-4mce.la.shifen.uk
-      type: hysteria2
-      udp: true
-    - auth: 3bd247a8-993e-11ec-a8bf-f23c91cfbbc9
-      name: "\U0001F1FA\U0001F1F8US_9|1.4MB/s"
-      password: 3bd247a8-993e-11ec-a8bf-f23c91cfbbc9
-      port: 443
-      ports: 30000-60000
-      server: 7f2b2a53-t53wg0-tk5ls1-z7a1.us.hyhuawei.com
-      type: hysteria2
-      udp: true
-    - auth: e3d404df-0fa4-4f88-8740-49de415dddfb
-      name: "\U0001F1FA\U0001F1F8US_10|1.8MB/s"
-      password: e3d404df-0fa4-4f88-8740-49de415dddfb
-      port: 54265
-      server: banmabanmabanmabanmabanmabanma1.wanlidag.top
-      skip-cert-verify: true
-      sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
-      type: hysteria2
-      udp: true
-    - auth: 7a2512b4-09ee-11f0-8d46-f23c9313b177
-      name: "\U0001F1FA\U0001F1F8US_11|1.5MB/s"
-      password: 7a2512b4-09ee-11f0-8d46-f23c9313b177
-      port: 1743
-      ports: 20000-50000
-      server: 46b37be3-t56dc0-tcm6ys-deip.la.shifen.uk
-      type: hysteria2
-      udp: true
-    - auth: 92e45ed7-f1b3-42f8-8aab-cfc454125bda
-      name: "\U0001F1FA\U0001F1F8US_12|1.8MB/s"
-      password: 92e45ed7-f1b3-42f8-8aab-cfc454125bda
-      port: 54265
-      server: banmabanmabanmabanmabanmabanma1.wanlidag.top
-      skip-cert-verify: true
-      sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
-      type: hysteria2
-      udp: true
-    - auth: 0da8651e-e1f6-11ec-bd7c-f23c913c8d2b
-      name: "\U0001F1FA\U0001F1F8US_13|1.5MB/s"
-      password: 0da8651e-e1f6-11ec-bd7c-f23c913c8d2b
-      port: 443
-      ports: 30000-60000
-      server: 02591bdd-t53wg0-tcinla-hrtf.us.hyhuawei.com
-      type: hysteria2
-      udp: true
-    - auth: ba4b1f2e-c985-11ed-9c0c-f23c913c8d2b
-      name: "\U0001F1FA\U0001F1F8US_14|1.5MB/s"
-      password: ba4b1f2e-c985-11ed-9c0c-f23c913c8d2b
-      port: 443
-      ports: 30000-60000
-      server: 314908c1-t53wg0-tdcdb7-1k27l.us.hyhuawei.com
-      type: hysteria2
-      udp: true
-    - auth: bcc58e88-e147-11ec-b286-f23c91cfbbc9
-      name: "\U0001F1FA\U0001F1F8US_15|1.2MB/s"
-      password: bcc58e88-e147-11ec-b286-f23c91cfbbc9
-      port: 443
-      ports: 30000-60000
-      server: 626759e9-t53wg0-t5wkp0-ggww.us.hyhuawei.com
-      type: hysteria2
-      udp: true
-    - auth: ee1b9e94-9b95-11ef-8967-f23c91cfbbc9
-      name: "\U0001F1FA\U0001F1F8US_16|1.1MB/s"
-      password: ee1b9e94-9b95-11ef-8967-f23c91cfbbc9
-      port: 443
-      ports: 30000-60000
-      server: 8aaecaaa-t55r40-t8hh31-amya.us.hyhuawei.com
-      type: hysteria2
-      udp: true
-    - auth: 12a81f5a-fa9e-11ef-8400-f23c9164ca5d
-      name: "\U0001F1FA\U0001F1F8US_17|1.2MB/s"
-      password: 12a81f5a-fa9e-11ef-8400-f23c9164ca5d
-      port: 443
-      ports: 30000-60000
-      server: 3cab8bdf-t55r40-tbmeud-1th9y.us.hyhuawei.com
-      type: hysteria2
-      udp: true
-    - auth: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
-      name: "\U0001F1FA\U0001F1F8US_18|1.1MB/s"
-      password: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
-      port: 443
-      ports: 30000-60000
-      server: 0cda838d-t55r40-t588iw-jjv2.us.hyhuawei.com
-      type: hysteria2
-      udp: true
-    - auth: a5a81a34-f257-11ef-ba82-f23c913c8d2b
-      name: "\U0001F1FA\U0001F1F8US_19|2.6MB/s"
-      password: a5a81a34-f257-11ef-ba82-f23c913c8d2b
-      port: 443
-      ports: 30000-60000
-      server: 15a77f84-t53wg0-t69l7r-1teuc.us.hyhuawei.com
-      type: hysteria2
-      udp: true
-    - auth: e534d120-d32f-11ef-bdb9-f23c91cfbbc9
-      name: "\U0001F1FA\U0001F1F8US_20|2.7MB/s"
-      password: e534d120-d32f-11ef-bdb9-f23c91cfbbc9
-      port: 443
-      ports: 30000-60000
-      server: 17b56da0-t55r40-tnbkh1-1ejce.us.hyhuawei.com
-      type: hysteria2
-      udp: true
-    - auth: 89b0ea8c-806b-11ed-94ba-f23c913c8d2b
-      name: "\U0001F1FA\U0001F1F8US_21|2.5MB/s"
-      password: 89b0ea8c-806b-11ed-94ba-f23c913c8d2b
-      port: 443
-      ports: 30000-60000
-      server: 5e7b8fdc-t53wg0-t5jnf1-n09f.us.hyhuawei.com
-      type: hysteria2
-      udp: true
-    - auth: ecfab6c8-df5b-11ed-98a7-f23c913c8d2b
-      name: "\U0001F1FA\U0001F1F8US_22|1.9MB/s"
-      password: ecfab6c8-df5b-11ed-98a7-f23c913c8d2b
-      port: 443
-      ports: 30000-60000
-      server: 89f5a1b5-t53wg0-tn57fp-5ifr.us.hyhuawei.com
-      type: hysteria2
-      udp: true
-    - auth: e6aa39b6-f0b5-11ef-bca1-f23c91cfbbc9
-      name: "\U0001F1FA\U0001F1F8US_23|2.4MB/s"
-      password: e6aa39b6-f0b5-11ef-bca1-f23c91cfbbc9
-      port: 443
-      ports: 30000-60000
-      server: 4175f989-t53wg0-tbc0ig-1ssud.us.hyhuawei.com
-      type: hysteria2
-      udp: true
-    - auth: 5148373c-be18-4778-b200-39d8ad39bcc9
-      name: "\U0001F1FA\U0001F1F8US_24|1.2MB/s"
-      password: 5148373c-be18-4778-b200-39d8ad39bcc9
-      port: 54265
-      server: banmabanmabanmabanmabanmabanma1.wanlidag.top
-      skip-cert-verify: true
-      sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
-      type: hysteria2
-      udp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_1|2.2MB/s"
-      password: bca467b8c15211d189008a93c7519d3b
-      port: 3161
-      server: 117.172.176.24
+      server: 108.162.196.245
+      servername: sni.111000.dynv6.net
       skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
-    - client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP_2|4.4MB/s"
-      password: BxceQaOe
-      port: 4492
-      server: 36.150.215.236
-      skip-cert-verify: true
-      type: trojan
-    - client-fingerprint: chrome
-      name: "\U0001F1F8\U0001F1ECSG_1|1.4MB/s"
-      password: BxceQaOe
-      port: 51825
-      server: 36.150.215.197
-      skip-cert-verify: true
-      type: trojan
+      tfo: false
+      tls: true
+      type: vless
+      uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+      ws-opts:
+        headers:
+            Host: sni.111000.dynv6.net
+        path: /?ed=2560
+    - client-fingerprint: random
+      name: "\U0001F1FA\U0001F1F8US_11|1.6MB/s"
+      network: ws
+      port: 443
+      server: 162.159.39.31
+      servername: sni.111000.dynv6.net
+      skip-cert-verify: false
+      tfo: false
+      tls: true
+      type: vless
+      uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+      ws-opts:
+        headers:
+            Host: sni.111000.dynv6.net
+        path: /?ed=2560
