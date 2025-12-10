@@ -1,9 +1,36 @@
 proxies:
+  - auth: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9
+    name: "\U0001F1ED\U0001F1F0HK_1|1.7MB/s"
+    password: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9
+    port: 443
+    ports: 30000-60000
+    server: 9c030cd8-t744g0-t7enwo-1f1f1.hk2.hyhuawei.com
+    type: hysteria2
+    udp: true
+    sni: 9c030cd8-t744g0-t7enwo-1f1f1.hk2.hyhuawei.com
+  - auth: 4f4c6876-fcf6-11ef-94aa-f23c913c8d2b
+    name: "\U0001F1ED\U0001F1F0HK_2|2.2MB/s"
+    password: 4f4c6876-fcf6-11ef-94aa-f23c913c8d2b
+    port: 443
+    ports: 30000-60000
+    server: f6a90b84-t744g0-tbrhck-1thqb.hk2.hyhuawei.com
+    type: hysteria2
+    udp: true
+    sni: f6a90b84-t744g0-tbrhck-1thqb.hk2.hyhuawei.com
+  - auth: dcdb1278-4b7d-11ed-bb74-f23c9164ca5d
+    name: "\U0001F1ED\U0001F1F0HK_3|1.0MB/s"
+    password: dcdb1278-4b7d-11ed-bb74-f23c9164ca5d
+    port: 443
+    ports: 30000-60000
+    server: b8b37ee9-t729s0-t9uin7-19ord.hk2.hyhuawei.com
+    type: hysteria2
+    udp: true
+    sni: b8b37ee9-t729s0-t9uin7-19ord.hk2.hyhuawei.com
   - auth: ''
     fast-open: false
     mport: 35000-39000
-    name: "\U0001F1FA\U0001F1F8US_1|6.0MB/s"
-    password: 02fe8dae-73b7-4f1d-a992-f0e226a98f27
+    name: "\U0001F1FA\U0001F1F8US_1|5.2MB/s"
+    password: 1347acec-0c12-46c0-9436-19603093d9ab
     port: 35000
     ports: 35000-39000
     server: 134.195.101.191
@@ -12,237 +39,46 @@ proxies:
     sni: www.apple.com
     type: hysteria2
     udp: true
-  - client-fingerprint: random
-    name: "\U0001F1FA\U0001F1F8US_2|1.1MB/s"
-    network: ws
-    port: 443
-    server: 162.159.42.161
-    skip-cert-verify: false
-    tfo: false
-    tls: true
-    type: vless
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    ws-opts:
-      headers:
-        Host: sni.111000.dynv6.net
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: sni.111000.dynv6.net
   - alpn:
       - h3
     auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    down: 55 Mbps
-    name: "\U0001F1EB\U0001F1F7FR_1|1.2MB/s"
-    port: 50011
+    down: '100'
+    name: "\U0001F1EB\U0001F1F7FR_1|1.8MB/s"
+    port: 15010
     protocol: udp
-    server: 62.210.10.186
+    server: 195.154.200.40
     skip-cert-verify: true
     sni: apple.com
     type: hysteria
-    udp: true
-    up: 11 Mbps
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US_3|2.7MB/s"
+    up: '100'
+  - alpn:
+      - h3
+    auth_str: dongtaiwang.com
+    down: '55'
+    name: "\U0001F1F3\U0001F1F1NL_1|1.7MB/s"
+    obfs: ''
+    port: 49003
+    protocol: udp
+    server: 51.159.226.1
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: '11'
+    auth-str: dongtaiwang.com
+  - name: "\U0001F1EC\U0001F1E7GB_1|1.1MB/s"
     network: ws
     port: 443
-    server: cloudflare-cm-ip-ddns.sakuraikaede.com
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
-    ws-opts:
-      headers:
-        Host: us.alice.cloudns.pro
-      path: /siehdfioshfiosdfskkk
-      v2ray-http-upgrade: true
-      v2ray-http-upgrade-fast-open: true
-    servername: us.alice.cloudns.pro
-  - client-fingerprint: random
-    name: "\U0001F1FA\U0001F1F8US_4|2.1MB/s"
-    network: ws
-    port: 443
-    server: 162.159.45.172
+    server: dingyue_center_hk.cim.netlib.re
     skip-cert-verify: false
     tfo: false
     tls: true
     type: vless
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+    uuid: 66667bb5-5fd7-4aa8-ba56-8a475e1df951
     ws-opts:
       headers:
-        Host: sni.111000.dynv6.net
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: sni.111000.dynv6.net
-  - client-fingerprint: random
-    name: "\U0001F1FA\U0001F1F8US_5|2.0MB/s"
-    network: ws
-    port: 443
-    server: 162.159.43.118
-    skip-cert-verify: false
-    tfo: false
-    tls: true
-    type: vless
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    ws-opts:
-      headers:
-        Host: sni.111000.dynv6.net
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: sni.111000.dynv6.net
-  - client-fingerprint: random
-    name: "\U0001F1FA\U0001F1F8US_6|2.3MB/s"
-    network: ws
-    port: 443
-    server: 104.18.37.87
-    skip-cert-verify: false
-    tfo: false
-    tls: true
-    type: vless
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    ws-opts:
-      headers:
-        Host: sni.111000.dynv6.net
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: sni.111000.dynv6.net
-  - name: "\U0001F1FA\U0001F1F8US_7|1.4MB/s"
-    network: ws
-    password: '8r<[9''l6hAO#8ZQi'
-    port: 8443
-    server: 172.66.44.230
-    skip-cert-verify: false
-    sni: Koma-YT.PAGeS.Dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-      path: /tro8sFW1S91B6sZrM1
-  - encryption: none
-    grpc-opts:
-      grpc-service-name: >-
-        ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-    name: "\U0001F1EB\U0001F1F7FR_2|5.2MB/s"
-    network: grpc
-    port: 56089
-    server: 141.227.172.96
-    type: vless
-    udp: true
-    uuid: 2d535288-d08e-4de4-b674-fd8cb3c6e4d3
-    xudp: true
-  - encryption: none
-    name: "\U0001F1FA\U0001F1F8US_8|1.2MB/s"
-    network: ws
-    port: 80
-    server: 172.66.156.81
-    type: vless
-    udp: true
-    uuid: 5f9917b6-cdba-4f17-8c90-a2a66d15668f
-    ws-opts:
-      headers:
-        Host: >-
-          websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-      path: >-
-        /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
-    xudp: true
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F3\U0001F1F1NL_1|1.6MB/s"
-    network: ws
-    port: 443
-    server: cosmin.ns.cloudflare.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 097712e8-666a-42e2-aebf-c03d597d8482
-    ws-opts:
-      headers:
-        Host: 639002745868715407.golf-amsir.info
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.102 Safari/537.36
-      path: /mcqvlfws
-    xudp: true
-    servername: 639002745868715407.golf-amsir.info
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1E9\U0001F1EADE_1|2.4MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: FscaEWx0paNBzL7GWHj4Fll7Xc-KxdhKgTthBAnByWI
-      short-id: ''
-    server: 151.243.171.156
-    tls: true
-    type: vless
-    udp: true
-    uuid: 669be00c-67b4-4b87-b08f-311c45abced2
-    xudp: true
-    servername: pingless.com
-  - client-fingerprint: random
-    name: "\U0001F1FA\U0001F1F8US_9|1.3MB/s"
-    network: ws
-    port: 443
-    server: www.shopify.com
-    skip-cert-verify: false
-    tfo: false
-    tls: true
-    type: vless
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    ws-opts:
-      headers:
-        Host: sni.111000.dynv6.net
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: sni.111000.dynv6.net
-  - client-fingerprint: random
-    name: "\U0001F1FA\U0001F1F8US_10|2.7MB/s"
-    network: ws
-    port: 443
-    server: 108.162.196.245
-    skip-cert-verify: false
-    tfo: false
-    tls: true
-    type: vless
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    ws-opts:
-      headers:
-        Host: sni.111000.dynv6.net
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: sni.111000.dynv6.net
-  - client-fingerprint: random
-    name: "\U0001F1FA\U0001F1F8US_11|1.6MB/s"
-    network: ws
-    port: 443
-    server: 162.159.39.31
-    skip-cert-verify: false
-    tfo: false
-    tls: true
-    type: vless
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    ws-opts:
-      headers:
-        Host: sni.111000.dynv6.net
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: sni.111000.dynv6.net
+        Host: harukav6.cim.netlib.re
+      path: /66667bb5-5fd7-4aa8-ba56-8a475e1df951
+    servername: dingyue_center_hk.cim.netlib.re
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
