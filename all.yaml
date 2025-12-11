@@ -1,154 +1,206 @@
 proxies:
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_1|1.1MB/s"
-      network: ws
-      port: 443
-      server: cloudflare-ct-ip-ddns.sakuraikaede.com
-      servername: us.alice.cloudns.pro
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
-      ws-opts:
-        headers:
-            Host: us.alice.cloudns.pro
-        path: /siehdfioshfiosdfskkk
-        v2ray-http-upgrade: true
-        v2ray-http-upgrade-fast-open: true
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US_2|2.9MB/s"
-      network: ws
-      port: 443
-      server: cloudflare-cm-ip-ddns.sakuraikaede.com
-      servername: us.alice.cloudns.pro
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      uuid: df3afb84-b065-4223-ae9a-53345dc29c0d
-      ws-opts:
-        headers:
-            Host: us.alice.cloudns.pro
-        path: /siehdfioshfiosdfskkk
-        v2ray-http-upgrade: true
-        v2ray-http-upgrade-fast-open: true
-    - auth: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9
-      name: "\U0001F1ED\U0001F1F0HK_1|3.1MB/s"
-      password: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9
-      port: 443
-      ports: 30000-60000
-      server: 9c030cd8-t744g0-t7enwo-1f1f1.hk2.hyhuawei.com
-      sni: 9c030cd8-t744g0-t7enwo-1f1f1.hk2.hyhuawei.com
-      type: hysteria2
-      udp: true
-    - auth: dcdb1278-4b7d-11ed-bb74-f23c9164ca5d
-      name: "\U0001F1ED\U0001F1F0HK_2|3.1MB/s"
-      password: dcdb1278-4b7d-11ed-bb74-f23c9164ca5d
-      port: 443
-      ports: 30000-60000
-      server: b8b37ee9-t729s0-t9uin7-19ord.hk2.hyhuawei.com
-      sni: b8b37ee9-t729s0-t9uin7-19ord.hk2.hyhuawei.com
-      type: hysteria2
-      udp: true
-    - auth: 4f4c6876-fcf6-11ef-94aa-f23c913c8d2b
-      name: "\U0001F1ED\U0001F1F0HK_3|2.1MB/s"
-      password: 4f4c6876-fcf6-11ef-94aa-f23c913c8d2b
-      port: 443
-      ports: 30000-60000
-      server: f6a90b84-t744g0-tbrhck-1thqb.hk2.hyhuawei.com
-      sni: f6a90b84-t744g0-tbrhck-1thqb.hk2.hyhuawei.com
-      type: hysteria2
-      udp: true
-    - auth: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
-      name: "\U0001F1ED\U0001F1F0HK_4|1.7MB/s"
-      password: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
-      port: 443
-      ports: 30000-60000
-      server: 2d439b52-t6r5s0-t99b5n-1hhyy.hk2.hyhuawei.com
-      type: hysteria2
-      udp: true
-    - auth: 0da8651e-e1f6-11ec-bd7c-f23c913c8d2b
-      name: "\U0001F1ED\U0001F1F0HK_5|2.0MB/s"
-      password: 0da8651e-e1f6-11ec-bd7c-f23c913c8d2b
-      port: 443
-      ports: 30000-60000
-      server: dbfa537b-t729s0-tcinla-hrtf.hk2.hyhuawei.com
-      type: hysteria2
-      udp: true
-    - auth: b58095f0-52dc-11ef-bc74-f23c91cfbbc9
-      name: "\U0001F1ED\U0001F1F0HK_6|5.7MB/s"
-      password: b58095f0-52dc-11ef-bc74-f23c91cfbbc9
-      port: 443
-      ports: 30000-60000
-      server: 38a8754f-t6pb40-tmynyz-1s3mx.hk2.hyhuawei.com
-      type: hysteria2
-      udp: true
-    - auth: 431026c8-7397-11ed-a8bf-f23c91cfbbc9
-      name: "\U0001F1ED\U0001F1F0HK_7|3.4MB/s"
-      password: 431026c8-7397-11ed-a8bf-f23c91cfbbc9
-      port: 443
-      ports: 30000-60000
-      server: c9e6c89d-t6t0g0-t845bx-1la2q.hk2.hyhuawei.com
-      type: hysteria2
-      udp: true
     - auth: ee1b9e94-9b95-11ef-8967-f23c91cfbbc9
-      name: "\U0001F1ED\U0001F1F0HK_8|5.2MB/s"
+      name: "\U0001F1ED\U0001F1F0HK_1|2.1MB/s"
       password: ee1b9e94-9b95-11ef-8967-f23c91cfbbc9
       port: 443
       ports: 30000-60000
       server: 8e3e616a-t6r5s0-t8hh31-amya.hk2.hyhuawei.com
       type: hysteria2
       udp: true
-    - auth: 0da8651e-e1f6-11ec-bd7c-f23c913c8d2b
-      name: "\U0001F1ED\U0001F1F0HK_9|2.6MB/s"
-      password: 0da8651e-e1f6-11ec-bd7c-f23c913c8d2b
-      port: 443
-      ports: 30000-60000
-      server: 29760139-t744g0-tcinla-hrtf.hk2.hyhuawei.com
-      type: hysteria2
-      udp: true
     - auth: 990e8f34-bd4f-11ef-bdb9-f23c91cfbbc9
-      name: "\U0001F1ED\U0001F1F0HK_10|3.9MB/s"
+      name: "\U0001F1ED\U0001F1F0HK_2|2.1MB/s"
       password: 990e8f34-bd4f-11ef-bdb9-f23c91cfbbc9
       port: 443
       ports: 30000-60000
       server: 258aa23b-t6pb40-t7uinf-i8ie.hk2.hyhuawei.com
       type: hysteria2
       udp: true
-    - cipher: chacha20-ietf
-      country: "\U0001F1ED\U0001F1F0HK"
-      name: "\U0001F1ED\U0001F1F0HK_11|1.6MB/s"
-      password: asd123456
-      port: 8388
-      server: 103.149.183.154
-      type: ss
+    - auth: 0da8651e-e1f6-11ec-bd7c-f23c913c8d2b
+      name: "\U0001F1ED\U0001F1F0HK_3|1.7MB/s"
+      password: 0da8651e-e1f6-11ec-bd7c-f23c913c8d2b
+      port: 443
+      ports: 30000-60000
+      server: dbfa537b-t729s0-tcinla-hrtf.hk2.hyhuawei.com
+      type: hysteria2
+      udp: true
+    - auth: 0da8651e-e1f6-11ec-bd7c-f23c913c8d2b
+      name: "\U0001F1ED\U0001F1F0HK_4|2.0MB/s"
+      password: 0da8651e-e1f6-11ec-bd7c-f23c913c8d2b
+      port: 443
+      ports: 30000-60000
+      server: 29760139-t744g0-tcinla-hrtf.hk2.hyhuawei.com
+      type: hysteria2
+      udp: true
+    - auth: b58095f0-52dc-11ef-bc74-f23c91cfbbc9
+      name: "\U0001F1ED\U0001F1F0HK_5|2.2MB/s"
+      password: b58095f0-52dc-11ef-bc74-f23c91cfbbc9
+      port: 443
+      ports: 30000-60000
+      server: 38a8754f-t6pb40-tmynyz-1s3mx.hk2.hyhuawei.com
+      type: hysteria2
+      udp: true
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      down: "100"
+      name: "\U0001F1EB\U0001F1F7FR_1|5.6MB/s"
+      port: 15010
+      protocol: udp
+      server: 195.154.200.40
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      up: "100"
+    - auth: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
+      name: "\U0001F1ED\U0001F1F0HK_6|6.7MB/s"
+      password: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
+      port: 443
+      ports: 30000-60000
+      server: 2d439b52-t6r5s0-t99b5n-1hhyy.hk2.hyhuawei.com
+      type: hysteria2
+      udp: true
+    - name: "\U0001F1F0\U0001F1F7KR_1|1.4MB/s"
+      port: 1090
+      server: 121.169.46.116
+      type: socks5
+      udp: true
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      down: "55"
+      name: "\U0001F1F3\U0001F1F1NL_1|2.4MB/s"
+      port: 49003
+      protocol: udp
+      server: 51.159.226.1
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      up: "11"
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1EF\U0001F1F5JP_1|1.7MB/s"
-      network: ws
-      port: "42841"
-      server: 43.165.190.11
-      servername: mot.luyuju.dpdns.org
+      flow: xtls-rprx-vision
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F1ED\U0001F1FAHU_1|1.5MB/s"
+      network: tcp
+      port: "4248"
+      reality-opts:
+        public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+        short-id: ""
+      server: 217.13.104.112
+      servername: www.vk.com
       tls: true
       type: vless
       udp: true
-      uuid: 00000000-0000-4000-8000-000000000000
-      ws-opts:
-        headers:
-            Host: mot.luyuju.dpdns.org
-            User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko) Chrome/v1.0.0 Safari/538.1
-        path: /@Marisa_kristi
+      uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
       xudp: true
-    - encryption: none
-      name: "\U0001F1E9\U0001F1EADE_1|4.3MB/s"
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      down: 55 Mbps
+      name: "\U0001F1EB\U0001F1F7FR_2|2.0MB/s"
+      port: 50011
+      protocol: udp
+      server: 62.210.10.186
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      up: 11 Mbps
+    - auth: ""
+      fast-open: false
+      mport: 35000-39000
+      name: "\U0001F1FA\U0001F1F8US_1|5.1MB/s"
+      password: 1347acec-0c12-46c0-9436-19603093d9ab
+      port: 35000
+      ports: 35000-39000
+      server: 134.195.101.191
+      servername: www.apple.com
+      skip-cert-verify: true
+      sni: www.apple.com
+      type: hysteria2
+      udp: true
+    - down: ""
+      fingerprint: ""
+      name: "\U0001F1ED\U0001F1F0HK_7|5.1MB/s"
+      obfs: ""
+      obfs-password: ""
+      password: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+      port: "443"
+      server: 1bb8296b-t75z40-tnkuks-wujn.hk2.hyhuawei.com
+      skip-cert-verify: true
+      sni: ""
+      type: hysteria2
+      up: ""
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US_2|2.3MB/s"
       network: ws
-      port: "80"
-      server: usaa.fastlynew.hosting-ip.com
+      port: "443"
+      server: wwwopensignalcom-goodspeed-8xx.pages.dev.
+      tls: true
       type: vless
       udp: true
-      uuid: 1215fcf7-f131-4d84-b750-47ea8c88a833
+      uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
       ws-opts:
         headers:
-            Host: mojhsjd.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17 (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-        path: /
+            Host: ""
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+        path: ""
+      xudp: true
+    - encryption: none
+      name: "\U0001F1E9\U0001F1EADE_1|4.1MB/s"
+      network: ws
+      port: 2095
+      server: www.speedtest.net
+      type: vless
+      udp: true
+      uuid: 1-JKVPN--JKVPN
+      ws-opts:
+        headers:
+            Host: joKer.mEmBerGolaBi.IR
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.101 Safari/537.36
+        path: /TELEGRAM--BYA--CHANEL----@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN?ed=2048
+      xudp: true
+    - name: "\U0001F1FA\U0001F1F8US_3|1.2MB/s"
+      password: ""
+      port: 5566
+      server: 37.18.73.60
+      skip-cert-verify: true
+      type: socks5
+      username: ""
+    - encryption: none
+      name: "\U0001F1EB\U0001F1F7FR_3|1.9MB/s"
+      network: ws
+      port: 80
+      server: fs.ir-sub.fun
+      type: vless
+      udp: true
+      uuid: 57a71c71-e9dc-49cf-bb2d-d2d433a6c769
+      ws-opts:
+        headers:
+            Host: zedd2.global.ssl.fastly.net
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36
+        path: /ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+      xudp: true
+    - name: "\U0001F1F8\U0001F1ECSG_1|1.8MB/s"
+      password: ""
+      port: 10808
+      server: 213.35.126.34
+      skip-cert-verify: true
+      type: socks5
+      username: ""
+    - encryption: none
+      name: "\U0001F1E9\U0001F1EADE_2|1.1MB/s"
+      network: ws
+      port: 2082
+      server: www.speedtest.net
+      type: vless
+      udp: true
+      uuid: 02451e3b-68da-4080-83d5-ed93f38f2b72
+      ws-opts:
+        headers:
+            Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+        path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
       xudp: true
